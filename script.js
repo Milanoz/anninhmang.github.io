@@ -495,7 +495,7 @@ var questions =[
         ]	 	
     },
     {
-        question: "Phần, mềm ngăn chặn hành vi:"
+        question: "Phần, mềm ngăn chặn hành vi:",
         answer: "Tất cả đều đúng an toàn",
         num : 46,
         options: [	
