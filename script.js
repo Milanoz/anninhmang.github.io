@@ -328,6 +328,330 @@ var questions =[
             "Phương pháp để cung cấp một chữ ký điện tử và mã hóa"
         ]
     },
+    {
+        question: "Sử dụng nhiêu bit với  DES để có hiệu quả",
+        answer: "64",	
+        num : 31,
+        options: [	
+                "64",	 	
+                "56",	 	
+                "32",	 	
+                "16"
+            ]
+    },
+    {
+    question: "Các yếu tố ảnh hưởng đến quá trình mã hóa",
+    answer: "Thuật toán mã hóa, giải mã, và tính an toàn của kênh truyền",	
+    num : 32,
+    options: [	
+            "Thuật toán mã hóa, giải mã, và tính an toàn của kênh truyền",
+            "Thời gian thực hiện mã hóa và giải mã",	 	
+            "Thực hiện mã hóa khối, mở rộng số bít xử lý",	 	
+            "Tất cả đều sai"
+        ]
+    },	
+    {
+    question: "Đối với Firewall lọc gói, hình thức tấn công nào sau đây được thực hiện",
+    answer: "Giả địa chỉ IP, tấn công giữa, tấn công biên",	
+    num : 33,
+    options: [	
+            "Giả địa chỉ IP, tấn công giữa, tấn công biên",
+            "Giả địa chỉ IP, tấn công đường đi nguồn, tấn công từng mẫu nhỏ",
+            "Giả địa chỉ IP, tấn công vượt firewall,tấn công từng mẫu nhỏ",
+            "Giả địa chỉ IP, tấn công vượt firewall, tấn công đường đi nguồn"
+        ]
+    },
+    {
+    question: "Ai là người tham gia vào việc phát triển đầu tiên hệ thống mã hóa khóa công",
+    answer: "Martin Hellman Martin Hellman",	
+    num : 34,
+    options: [	
+             "Martin Hellman Martin Hellman", 	 	
+             "Adi ShamiAdi Shamir",	 	
+             "Ross Anderson Ross Anderson",	 	
+             "Bruce Schneier Bruce Schneier"
+        ]	
+    }, 	
+    {
+    question: "DES là viết tắt của từ nào",
+    answer: "Data encryption standard",	
+    num : 35,
+    options: [	
+             "Data encryption standard", 	 	
+             "Giả địa chỉ IP, tấn công đường đi nguồn, tấn công từng mẫu nhỏ",
+             "Data encoding standard",
+             "Data encryption signature"
+        ]
+    },
+    {
+        question: "Các phát biểu sau đây, phát biểu nào  tốt nhất mô tả một hacker mũ trắng",
+        answer: "Chuyên gia bảo mật",	
+        num : 36,
+        options: [	
+                 "Chuyên gia bảo mật",	 	
+                 "Cựu Hacker mũ đen",	 	
+                 "Cựu Hacker mũ xám",	 	
+                 "Hacker hiểm độc"
+            ] 	
+    },
+    {
+    question: "Khi một hacker cố gắng tấn công một máy chủ qua Internet nó được gọi là loại tấn công?",
+    answer: "Dò tìm", 
+    num : 37,
+    options: [	
+             "Dò tìm",	
+             "Đếm",
+             "Tấn công hệ thống",	 	
+             "Tổng hợp thông tin đang hữu dụng"
+        ]	
+    },
+    {
+    question: "Lý do tốt nhất để thực hiện một chính sách bảo mật là gì?",
+    answer: "Tăng an ninh.", 
+    num : 38,
+    options: [	
+             "Tăng an ninh.",	 	
+             "Nó làm cho khó hơn việc thi hành bảo mật.",	 	
+             "Hạn chế quyền hạn của nhân viên",	 	
+             "Giảm bớt vấn đề an ninh."
+        ]	
+    },
+    {
+        
+        question: "FTP sử dụng cổng gì ?",
+        answer: "21", 	
+        num : 39,
+        options: [	
+            "21",	 	
+            "25",	 	
+            "23",	 	
+            "8"
+        ]
+    },
+    {
+        question: "Cổng nào được HTTPS sử dụng",
+        answer: "443",	
+        num : 40,
+        options: [	
+            "443",	 	
+            "8",	 	
+            "53",	 	
+            "21"
+        ]	 	
+    },
+    {
+        question: "Trojan Horse là gì?",
+        answer: "Chương trình độc hại lấy cắp tên người dùng và mật khẩu",	
+        num : 41,
+        options: [	
+            "Chương trình độc hại lấy cắp tên người dùng và mật khẩu",	 	
+            "Gây hại như mã giả mạo hoặc thay thế mã hợp pháp",	 	
+            "Người sử dụng trái phép thu truy cập vào cơ sở dữ liệu",	 	
+            "Một máy chủ đó tận hiến giám sát các hoạt động hacking"
+        ]	 	
+    },
+    {
+        question: "Các loại mục tiêu của chiến tranh thông tin",
+        answer: "phương thức xác định các hành vi “phù hợp” của các đối tượng tương tác với hệ thống",	
+        num : 42,
+        options: [	
+            "phương thức xác định các hành vi “phù hợp” của các đối tượng tương tác với hệ thống",	 	
+            "Cơ chế mặc định của hệ điều hành",	 	
+            "các tập luật được xây dựng nhằm bảo vệ các tấn công bất hợp pháp từ bên ngoài",	 	
+            "Tất cả đều đúng"
+        ]
+    },
+    {
+        question: "Các loại mục tiêu của chiến tranh thông tin",
+        answer: "Tất cả đều đúng",	
+        num : 43,
+        options: [	
+            "Tất cả đều đúng",	
+            "Website, E-commerce server",	 	
+            "Internet Relay Chat (IRC), Domain Name System (DNS)",	 	
+            "ISP, Email server"
+        ] 	
+    },
+    {
+        question: "X8 là một",
+        answer: "Dịch vụ an toàn", 	
+        num : 44,
+        options: [	
+            "Dịch vụ an toàn", 	 	
+            "Cơ chế an toàn",	 	
+            "Là một tiêu chuẩn",	 	
+            "Một dịch vụ không đáp ứng yêu cầu không thể từ chối (non-reputation)"
+        ]
+    },
+    {
+        question: "Audit (kiểm tra, kiểm toán), dùng trong an toàn CSDL nhằm:",
+        answer: "Ai đã làm gì?",
+        num : 45,
+        options: [	
+            "Ai đã làm gì?",	 	
+            "Tất cả các mục",	 	
+            "Cấp quyền ai có thể làm gì (authorization)?", 	 	
+            "Xác thực đó là ai (authetication)?"
+        ]	 	
+    },
+    {
+        question: "Phần, mềm ngăn chặn hành vi:"
+        answer: "Tất cả đều đúng an toàn",
+        num : 46,
+        options: [	
+            "Tất cả đều đúng an toàn",	 	
+            "Theo dõi các hành vi trong thời gian thực của hệ thống",	 	
+            "Theo dõi các tham số của hệ thống",	 	
+            "Phát hiện code có hại trước khi chúng thực hiện"
+        ] 	 	
+    },
+    {
+        question: "Phòng chống tấn công Tấn công từ chối dịch vụ phân bố (DDOS)",
+        answer: "Có thể hạn chế trong bằng cách lập trình",	
+        num : 47,
+        options: [	
+            "Có thể hạn chế trong bằng cách lập trình",
+            "Chỉ có thể dùng tường lửa",	
+            "Hiện nay đã có cách phòng chống hiệu quả"	 	,
+            "Cách hiệu quả duy nhất là lưu trữ và phục hồi (backup và restore)"
+        ]	 	
+    },,
+    {
+        
+        question: "Trong DAC, mô hình nào dung cấu trúc đồ thị tĩnh và đồ thị động",
+        answer: "Mô hình Take-grant",	
+        num : 48,
+        options: [	
+            "Mô hình Take-grant",	 	
+            "Mô hình truy cập CSDL đa mức",	 	
+            "Mô hình ma trận truy cập",	 	
+            "Mô hình Acten (Action. Entity)"
+        ]	 	
+    },
+    {
+        question: "RSA là giải thuật",
+        answer: "Mã công khai",	
+        num : 49,
+        options: [	
+            "Mã công khai",	 	
+            "Là tên của một tổ chức quốc tế về mã hóa", 	
+            "Mã khóa riêng",	 	
+            "Tất cả đều sai"
+        ]	 	
+    },
+    {
+        question: "Một trong hai cách tiếp cận tấn công mã đối xứng",
+        answer: "Tấn công duyệt toàn bộ",	
+        num : 50,
+        options: [	
+            "Tấn công duyệt toàn bộ",	 	
+            "Tất cả đều sai",	 	
+            "Tấn công tìm khóa",	 	
+            "Tấn công tìm bản rõ"
+        ]	 	
+    },
+    {
+        
+        question: "Khoá riêng có đặc điểm",
+        answer: "Không an toàn",	
+        num : 51,
+        options: [	
+            "Không an toàn",	 	
+            "Thời gian thực hiện chậm",	 	
+            "Được thay thế bằng khoá công khai",	 	
+            "Thời gian thực hiện nhanh"
+        ]	 	
+    },
+    {
+        
+        question: "Một IP flood theo các host phát tán trực tiếp đến một Web server là một ví dụ của loại tấn công gì ?",
+        answer: "A và B đúng",	
+        num : 52,
+        options: [	
+            "A và B đúng",	 	
+            "DoS phân tán (DDoS)",	 	
+            "Tấn công IP",	 	
+            "Trojan Hors"
+        ]	 	
+    },
+    {
+        question: "Để ngăn tấn công DoS, một quản trị mạng chặn nguồn IP với tường lửa, nhưng tấn công vẫn tiếp diễn. Điều gì có khả năng xảy ra nhất",
+        answer: "A và B đều có thể xảy ra",	
+        num : 53,
+        options: [	
+            "A và B đều có thể xảy ra",	 	
+            "A và B đều không thể xảy ra",	 	
+            "Sâu DoS đã lây nhiễm cục bộ",	 	
+            "Phần mềm Antivirus cần được cài đặt trên máy chủ đích"
+        ]	 	
+    },
+    {
+        question: "Các giao thức đường hầm nào sau đây chỉ làm việc trên các mạng IP ?",
+        answer: "L2TP",
+        num : 54,
+        options: [	
+            "PPTP",	 	
+            "SSH",	 	
+            "L2TP",	
+            "IPX"
+        ]	 	
+    },
+    {
+        question: "Mục đích của một máy chủ RADIUS là :",
+        answer: "Xác thực",	
+        num : 55,
+        options: [	
+            "Packet Sniffing",	 	
+            "Mã hóa",	 	
+            "Thỏa thuận tốc độ kết nối",
+            "Xác thực"
+        ]	 	
+    },
+    {
+        question: "Các giao thức nào sau đây làm việc trên lớp IP để bảo vệ thông tin IP trên mạng ?",
+        answer: "IPSec",	
+        num : 56,
+        options: [	
+            "IPX",	 	
+            "SSH",	 	
+            "TACACS+",
+            "IPSec",
+        ]	 
+    },
+    {
+        question: "Kỹ thuật nào được sử dụng để bảo đảm thông tin liên lạc qua một mạng không được bảo mật ?",
+        answer: "Telnet",
+        num : 57,
+        options: [	
+            "SLIP",	 	
+            "VPN",	 	
+            "Telnet",
+            "PPP"
+        ]	 	
+    },
+    {
+        question: "Yêu cầu để đảm bảo sử dụng mã hóa đối xứng là",
+        answer: "Có thuật tóan encryption tốt,có một khóa bí mật được biết bởi người nhận/gởi  và kênh truyền bí mật để phân phát key",
+        num : 58,
+        options: [	
+            "Có thuật tóan encryption tốt,có một khóa bí mật được biết bởi người nhận/gởi  và kênh truyền bí mật để phân phát key",	 	
+            "Có một kênh truyền phù hợp và một khóa bí mật được biết bởi người nhận/gởi",	 	
+            "Có thuật tóan encryption tốt và có một khóa bí mật được biết bởi người nhận/gởi",	 	
+            "Tất cả đều đúng"
+        ]	 	
+    },
+    {
+        
+        question: "Cơ chế bảo mật SSL hoạt động trên tầng",
+        answer: "Network, Transport", 	
+        num : 59,
+        options: [	
+            "Network, Transport",	 	
+            "Network, Session",	 	
+            "Application, Session"
+        ]
+    }
+    
 ];
 
 const start_btn = document.querySelector(".start_quiz");
