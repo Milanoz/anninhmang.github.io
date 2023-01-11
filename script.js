@@ -144,7 +144,7 @@ var questions =[
     },
     {
     num: 14,
-    question: "Các phát biểu sau đây phát biểu là là đúng nhất",
+    question: "Các phát biểu sau đây phát biểu là là đúng nhất về Firewall",
     answer: "Là một điểm chặn của trong quá trình điều khiển và giám sát.",
     options: [
             "Là một điểm chặn của trong quá trình điều khiển và giám sát.",
@@ -329,7 +329,7 @@ var questions =[
         ]
     },
     {
-        question: "Sử dụng nhiêu bit với  DES để có hiệu quả",
+        question: "Sử dụng nhiêu bit với DES để có hiệu quả",
         answer: "64",	
         num : 31,
         options: [	
@@ -597,7 +597,7 @@ var questions =[
         ]	 	
     },
     {
-        question: "Mục đích của một máy chủ RADIUS là :",
+        question: "Mục đích của một máy chủ RADIUS là:",
         answer: "Xác thực",	
         num : 55,
         options: [	
@@ -718,6 +718,128 @@ var questions =[
             "Sử dụng ACL trên tường lửa IOS.",
         ]
     },
+    {
+        question: "Các phát biểu sau đây, phát biểu nào tốt nhất mô tả một hacker mũ trắng",
+        answer: "Chuyên gia bảo mật", 	
+        num : 65,
+        options: [	
+            "Cựu Hacker mũ xám",
+            "Cựu Hacker mũ đen",
+            "Chuyên gia bảo mật",
+            "Hacker hiểm độc",
+        ]
+    },
+    {
+        question: "Giao thứ SSL và TLS hoạt động ở tầng nào của mô hình OSI",
+        answer: "Transport", 	
+        num : 66,
+        options: [	
+            "Transport",
+            "Network",
+            "Từ tầng Transport trở lên",
+            "Session",
+        ]
+    },
+    {
+        question: "Kích thước khối được sử dụng trong DES là?",
+        answer: "64", 	
+        num : 67,
+        options: [	
+            "16",
+            "32",
+            "56",
+            "64",
+        ]
+    },
+    {
+        question: "Đâu là thành phần của bộ 3 C-I-A?",
+        answer: "bảo mật, toàn vẹn, khả dụng", 	
+        num : 68,
+        options: [	
+            "thống nhất, tích hợp, xác thực ",
+            "bảo mật, toàn vẹn, khả dụng",
+            "rối loạn, tác động, đối nghịch",
+            "không đáp án nào đúng"
+        ]
+    },
+    {
+        question: "Đâu là định nghĩa đúng nhất cho tính toàn vẹn của lá chắn bảo vệ",
+        answer: "đảm bảo chỉ các thực thể được xác thực có thể thay đổi các dữ liệu nhạy cảm", 	
+        num : 69,
+        options: [	
+            "đảm bảo rằng chỉ có người dùng hợp pháp có thể truy cập vào các chủ thể mạng để điều khiển ToD",
+            "đảm bảo chỉ các người dùng được xác thực có thế truy cập vào các dữ liệu nhạy cảm",
+            "đảm bảo các dữ liệu, hệ thống mà được cấp quyền truy cập giữ hiệu lực cho các người dùng được xác thực",
+            "đảm bảo chỉ các thực thể được xác thực có thể thay đổi các dữ liệu nhạy cảm",
+            "cấu hình danh sách điều khiển truy cập ví dụ như chỉ một số các giao thức cụ thể được phép thông qua đường bao"
+        ]
+    },
+    {
+        question: "Các thuật tóan nào sau đây là thuật tóan mã hóa đối xứng",
+        answer: "Triple DES, RC4, RC5, Blowfish",
+        num : 70,
+        options: [	
+            "Triple DES, RC4, RC5, Blowfish",	 	
+            "Triple DES, RC4, RC5, IDEA",	 	
+            "RC4, RC5, IDEA, Blowfish",
+            "IDEA, Blowfish, AES, Elliptic Cure"
+        ]	 	
+    },
+    {
+        question: "Các phát biểu sau đây phát biểu nào đúng",
+        answer: "Tất cả đều đúng",
+        num : 71,
+        options: [	
+            "Hầu hết các thuật tóan mã hóa đối xứng đều dựa trên cấu trúc thuật tóan Feistel",	 	
+            "Tấn công thông điệp thì thời gian giải mã tỷ lệ với kích thước khóa",	 	
+            "Hầu hết các thuật tóan mã hóa khối đều đối xứng",
+            "Tất cả đều đúng"
+        ]	 	
+    },
+    {
+        question: "Công cụ/cơ chế  bảo mật cho mạng không dây là",
+        answer: "WEP",
+        num : 72,
+        options: [	
+            "SSL",	 	
+            "TSL",	 	
+            "Giao thức PGP",
+            "WEP"
+        ]	 	
+    },
+    {
+        question: "Hoạt động của virus có 4 giai đoạn",
+        answer: "Nằm im, lây nhiễm, khởi sự và tàn phá",
+        num : 73,
+        options: [	
+            "Nằm im, lây nhiễm, tàn phá và tự hủy",	 	
+            "Lây nhiễm, tấn công, hủy diệt và tự hủy",	 	
+            "Nằm im, lây nhiễm, khởi sự và tàn phá",
+            "Lây nhiễm, khởi sự, tàn phát, kích họat lại"
+        ]	 	
+    },
+    {
+        question: "Các dạng sau đây, dạng nào là của virus",
+        answer: "virus ký sinh, cư trú bộ nhớ, boot secctor, Stealth, đa hình, macro",
+        num : 74,
+        options: [	
+            "sealth, cư trú bộ nhớ, macro, đa hình, file",	 	
+            "stealth, cư trú bộ nhớ, macro, lưỡng tính, file",	 	
+            "virus ký sinh, file, boot secctor, stealth, cư trú bộ nhớ, macro",
+            "virus ký sinh, cư trú bộ nhớ, boot secctor, Stealth, đa hình, macro"
+        ]	 	
+    },
+    {
+        question: "Virus Macro chỉ có khả năng tấn công vào các file",
+        answer: "MS.Exel, MX Word, MS.Outlook Mail",
+        num : 75,
+        options: [	
+            "MS.Exel, MX Word, MS.Outlook Mail",	 	
+            "MS.Exel, MX Word, MS.Power Point",	 	
+            "MS.Exel, MX Word,Yahoo Mail",
+            "Tất cả các loại file"
+        ]	 	
+    },    
 ];
 
 const start_btn = document.querySelector(".start_quiz");
