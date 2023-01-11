@@ -37,9 +37,9 @@ var questions =[
     question: "Công cụ/cơ chế  bảo mật cho mạng không dây là",
     answer: "WEP",
     options: [
-        "	 	SSL	 	",
-        "	 	TSL	 	",
-        "	 	WEP	 	",
+            "SSL",
+            "TSL",
+            "WEP",
             "Giao thức PGP"
         ]
     },
@@ -48,8 +48,8 @@ var questions =[
     question: "Giao thứ SSL và TSL hoạt động ở tầng nào của mô hình OSI",
     answer: "Transport",
     options: [
-        "Network",
-        "Transport",
+            "Network",
+            "Transport",
             "Sesion",
             "Từ tầng Trasport trở lên"
         ]
@@ -59,10 +59,10 @@ var questions =[
     question: "Chức năng chính của Virus là",
     answer: "Sống ký sinh và lây nhiễm",
     options: [
-        "Lây nhiễm và sinh sản",
-        "Tự phát triển độc lập và lây nhiễm",
-        "Tất cả đều đúng",
-        "Sống ký sinh và lây nhiễm"
+            "Lây nhiễm và sinh sản",
+            "Tự phát triển độc lập và lây nhiễm",
+            "Tất cả đều đúng",
+            "Sống ký sinh và lây nhiễm"
         ]
     },
     {
@@ -70,10 +70,10 @@ var questions =[
     question: "Giao thức SSL dùng để",
     answer: "Cung cấp bảo mật cho dữ liệu lưu thông trên dịch vụ HTTP",
     options: [
-        "Cung cấp bảo mật cho thư điện tử",
-        "Cung cấp bảo mật cho dữ liệu lưu thông trên dịch vụ HTTP",
-        "Cung cấp bảo mật cho Web",
-        "Cung cấp bảo mật cho xác thực người dùng vào các hệ thống vận hành trên Flatform Window"
+            "Cung cấp bảo mật cho thư điện tử",
+            "Cung cấp bảo mật cho dữ liệu lưu thông trên dịch vụ HTTP",
+            "Cung cấp bảo mật cho Web",
+            "Cung cấp bảo mật cho xác thực người dùng vào các hệ thống vận hành trên Flatform Window"
         ]
     },
     {
@@ -81,8 +81,8 @@ var questions =[
     question: "Các giao thức bảo mật trên Internet như SSL, TLS và SSH hoạt động ở tầng nào trên mô hình OSI",
     answer: "Từ tầng Transport trở lên đến tầng 7",
     options: [
-        "Tầng Network",
-        "Từ tầng Transport trở lên đến tầng 7",
+            "Tầng Network",
+            "Từ tầng Transport trở lên đến tầng 7",
             "Tầng Transport",
             "Tầng Session"
         ]
@@ -92,9 +92,9 @@ var questions =[
     question: "Kỹ thuật tấn công phổ biến trên Web là",
     answer: "Từ chối dịch vụ (DoS)",
     options: [
-        "Chiếm hữu phiên làm việ",
-        "Tràn bộ đệm.",
-        "Từ chối dịch vụ (DoS)",
+            "Chiếm hữu phiên làm việ",
+            "Tràn bộ đệm.",
+            "Từ chối dịch vụ (DoS)",
             "Chèn câu truy vấn SQL."
         ]
     },
@@ -103,10 +103,10 @@ var questions =[
     question: "Các lỗ hổng bảo mật trên hệ thống là do",
     answer: "Tất cả đều đúng",
     options: [
-        "Dịch vụ cung cấp",
-        "Bản thân hệ điều hành",
-        "Con người tạo ra",
-        "Tất cả đều đúng"
+            "Dịch vụ cung cấp",
+            "Bản thân hệ điều hành",
+            "Con người tạo ra",
+            "Tất cả đều đúng"
         ]
     },
     {
@@ -199,7 +199,7 @@ var questions =[
     {
     num: 19,
     question: "Các bước kiểm tra của chứ ký điện tử",
-    answer: "Gồm các bước 1. Dùng public key của người gửi (khóa này được thông báo đến mọi người) để giải mã chữ ký số của message, 2.Dùng giải thuật (MD5 hoặc SHA) băm message đính kèm, So sánh kết quả thu được ở bước 1 và 2. 3.Nếu trùng nhau, ta kết luận message này không bị thay đổi trong quá trình truyền và message này là của người gửi.",
+    answer: "Gồm các bước 1.Dùng public key của người gửi (khóa này được thông báo đến mọi người) để giải mã chữ ký số của message, 2.Dùng giải thuật (MD5 hoặc SHA) băm message đính kèm, So sánh kết quả thu được ở bước 1 và 2. 3.Nếu trùng nhau, ta kết luận message này không bị thay đổi trong quá trình truyền và message này là của người gửi.",
     options: [
         "Chỉ có bước 1 và 2",
         "Gồm các bước 1.Dùng public key của người gửi (khóa này được thông báo đến mọi người) để giải mã chữ ký số của message, 2.Dùng giải thuật (MD5 hoặc SHA) băm message đính kèm, So sánh kết quả thu được ở bước 1 và 2. 3. Nén dữ liệu rồi gởi đi",
@@ -212,10 +212,10 @@ var questions =[
     question: "Thuật tóan thực hiện trong cơ chế bảo mật IP (IP Sec) ở Window sử dụng là",
     answer: "MD5 và SHA1",
     options: [
-        "Kerberos và DES",
-        "MD5 và SHA1",
-        "DES hoặc 3DES (triple DES).",
-        "Tất cả đều sai"
+            "Kerberos và DES",
+            "MD5 và SHA1",
+            "DES hoặc 3DES (triple DES).",
+            "Tất cả đều sai"
         ]
     },
     {
@@ -223,10 +223,10 @@ var questions =[
     question: "42. Hai giao thức sử dụng trong IPSec (IPSec Protocol) gồm",
     answer: "IP Authentication Header, IP Encapsulating Security Payload",
     options: [
-        "TCP/IP, IP Encapsulating Security Payload",
-        "IP Authentication Header, TCP/IP",
-        "IP Authentication Header, IP Encapsulating Security Payload",
-        "Tất cả đều đúng"
+            "TCP/IP, IP Encapsulating Security Payload",
+            "IP Authentication Header, TCP/IP",
+            "IP Authentication Header, IP Encapsulating Security Payload",
+            "Tất cả đều đúng"
         ]
     },
     {
@@ -234,10 +234,10 @@ var questions =[
     question: "Các điểm khác nhau cơ bản giữa dịch vụ X.59 và Kerberos là",
     answer: "Tất cả đều đúng",
     options: [
-        "Được sử dụng trong dịch vụ mail",
-        "Xác thực nhiều chiều",
-        "Dựa trên mã hóa đối xứng",
-        "Tất cả đều đúng"
+            "Được sử dụng trong dịch vụ mail",
+            "Xác thực nhiều chiều",
+            "Dựa trên mã hóa đối xứng",
+            "Tất cả đều đúng"
         ]
     },
     {
@@ -245,10 +245,10 @@ var questions =[
     question: "Các chức năng cơ bản của kỹ thuật tấn công Sniffer",
     answer: "Bắt gói tin trên đường truyền, phân tích lỗi và giải mã gói tin",
     options: [
-        "Tự động chụp các tên người sử dụng (Username) và mật khẩu không được mã hoá, Chuyển đổi dữ liệu trên đường truyền, phân tích những lỗi đang mắc phải trên hệ thống lưu lượng của mạng.",
-        "Bắt gói tin trên đường truyền, mã hóa vag giải mã dữ liệu",
-        "Bắt gói tin trên đường truyền, phân tích lỗi và giải mã gói tin",
-        "Tất cả đều đúng"
+            "Tự động chụp các tên người sử dụng (Username) và mật khẩu không được mã hoá, Chuyển đổi dữ liệu trên đường truyền, phân tích những lỗi đang mắc phải trên hệ thống lưu lượng của mạng.",
+            "Bắt gói tin trên đường truyền, mã hóa vag giải mã dữ liệu",
+            "Bắt gói tin trên đường truyền, phân tích lỗi và giải mã gói tin",
+            "Tất cả đều đúng"
         ]
     },
     {
@@ -631,17 +631,16 @@ var questions =[
     },
     {
         question: "Yêu cầu để đảm bảo sử dụng mã hóa đối xứng là",
-        answer: "Có thuật tóan encryption tốt,có một khóa bí mật được biết bởi người nhận/gởi  và kênh truyền bí mật để phân phát key",
+        answer: "Có thuật toán encryption tốt,có một khóa bí mật được biết bởi người nhận/gởi và kênh truyền bí mật để phân phát key",
         num : 58,
         options: [	
-            "Có thuật tóan encryption tốt,có một khóa bí mật được biết bởi người nhận/gởi  và kênh truyền bí mật để phân phát key",	 	
+            "Có thuật toán encryption tốt,có một khóa bí mật được biết bởi người nhận/gởi và kênh truyền bí mật để phân phát key",	 	
             "Có một kênh truyền phù hợp và một khóa bí mật được biết bởi người nhận/gởi",	 	
-            "Có thuật tóan encryption tốt và có một khóa bí mật được biết bởi người nhận/gởi",	 	
+            "Có thuật toán encryption tốt và có một khóa bí mật được biết bởi người nhận/gởi",	 	
             "Tất cả đều đúng"
         ]	 	
     },
     {
-        
         question: "Cơ chế bảo mật SSL hoạt động trên tầng",
         answer: "Network, Transport", 	
         num : 59,
@@ -650,8 +649,75 @@ var questions =[
             "Network, Session",	 	
             "Application, Session"
         ]
-    }
-    
+    },
+    {
+        question: "Ai là người tham gia vào việc phát triển đầu tiên hệ thống mã hóa khóa công khai",
+        answer: "Martin Hellman", 	
+        num : 60,
+        options: [	
+            "Bruce Schneier",
+            "Martin Hellman",
+            "Ross Anderson",
+            "Adi Shami"
+        ]
+    },
+    {
+        question: "Phần mềm ngăn chặn hành vi:",
+        answer: "Tất cả đều đúng an toàn", 	
+        num : 61,
+        options: [	
+            "Tất cả đều đúng an toàn",
+            "Theo dõi các tham số của hệ thống",
+            "Phát hiện code có hại trước khi chúng thực hiện",
+            "Theo dõi các hành vi trong thời gian thực của hệ thống"
+        ]
+    },
+    {
+        question: "Thuật toán thực hiện trong quá trình xác thực (authentication) của giao thức IPSec ở Window sử dụng là",
+        answer: "MD5 và SHA1", 	
+        num : 62,
+        options: [	
+            "MD5 và SHA1",
+            "Tất cả đều sai",
+            "DES hoặc 3DES (triple DES).",
+            "Kerberos và DES"
+        ]
+    },
+    {
+        question: "Đâu là tên viết tắt của AAA",
+        answer: "Authentication, authorization, accounting", 	
+        num : 62,
+        options: [	
+            "Accounting, access, administration",
+            "Access, accountability, administration",
+            "Authentication, authorization, accounting",
+            "Authorization, accounting, administration",
+            "Administration, access, accounting"
+        ]
+    },
+    {
+        question: "Đâu là những yếu tố của nguyên tắc phân chia công việc trong bảo mật hệ thống:",
+        answer: "Bao gồm hai người và điều khiển vận hành kép.", 	
+        num : 63,
+        options: [	
+            "Các người sử dụng hệ thống duy trì mối quan hệ tay dài với kiểm soát an ninh.",
+            "Bao gồm hai người và điều khiển vận hành kép.",
+            "Đảm bảo rằng không ai có thể thỏa hiệp toàn bộ hệ thống.",
+            "Các cá nhân xoay vòng các nhiệm vụ liên quan đến an ninh để không ai chịu trách nhiệm vĩnh viễn cho một chức năng nhạy cảm.",
+            "Đào tạo lại nhân sự liên tục."
+        ]
+    },
+    {
+        question: "Chiến lược nào giúp ngăn chặn tấn công:",
+        answer: "Tất cả các chiến lược trên.", 	
+        num : 64,
+        options: [	
+            "Tất cả các chiến lược trên.",
+            "Cài đặt phần mềm Hệ thống bảo vệ xâm nhập máy chủ (HIPS) trên máy chủ bên trong.",
+            "Cài đặt tường lửa hoặc IPS có thể kiểm tra lưu lượng truy cập trong nước để đảm bảo rằng nó tuân thủ giao thức, chặn lưu lượng truy cập, và cũng cảnh báo cho người quản lý.",
+            "Sử dụng ACL trên tường lửa IOS.",
+        ]
+    },
 ];
 
 const start_btn = document.querySelector(".start_quiz");
