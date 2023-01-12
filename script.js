@@ -982,7 +982,140 @@ var questions =[
             "Transport",
             "Data Link"
         ]	 	
-    },    
+    },   
+    {
+        question: "Giai đoạn đầu của hacking là gì?",
+        answer: "Trinh sát",
+        num : 89,
+        options: [	
+            "Duy trì truy cập",	 	
+            "Gaining truy cập",	 	
+            "Trinh sát",
+            "Dò tìm (Scanning)"
+        ]	 	
+    },
+    {
+        question: "Khi một hacker cố gắng tấn công một máy chủ qua Internet nó được gọi là loại tấn công?",
+        answer: "Tấn công từ xa",
+        num : 90,
+        options: [	
+            "Tấn công từ xa",	 	
+            "Tấn công truy cập vật lý",	 	
+            "Truy cập địa phương",
+            "Tấn công tấn công nội"
+        ]	 	
+    },   
+    {
+        question: "Công cụ nào sau đây đúng là một công cụ để thực hiện footprinting không bị phát hiện?",
+        answer: "Whois search",
+        num : 91,
+        options: [	
+            "Whois search",	 	
+            "Traceroute",	 	
+            "Ping sweep",
+            "Host scanning"
+        ]	 	
+    },   
+    {
+        question: "Bước tiếp theo sẽ được thực hiện sau khi footprinting là gì?",
+        answer: "Scanning",
+        num : 92,
+        options: [	
+            "Scanning",	 	
+            "Enumeration",	 	
+            "System hacking",
+            "Active information gathering"
+        ]	 	
+    },
+    {
+        question: "Footprinting là gì?",
+        answer: "tích luỹ dữ liệu bằng cách thu thập thông tin về một mục tiêu",
+        num : 93,
+        options: [	
+            "đo dấu vết của một hacker có đạo đức",	 	
+            "tích luỹ dữ liệu bằng cách thu thập thông tin về một mục tiêu",	 	
+            "quét một mạng lưới mục tiêu để phát hiện hệ điều hành các loại",
+            "sơ đồ bố trí vật lý của một mạng của mục tiêu"
+        ]	 	
+    },
+    {
+        question: "John muốn cài đặt một ứng dụng mới vào máy chủ của Windows 2000. Ông muốn đảm bảo rằng các ứng dụng bất kỳ ông sử dụng chưa được cài Trojan. Ông có thể làm gì để giúp đảm bảo điều này?",
+        answer: "So sánh chữ ký MD5 của tập tin với một trong những công bố trên các phương tiện truyền thông phân tán",
+        num : 94,
+        options: [	
+            "So sánh chữ ký MD5 của tập tin với một trong những công bố trên các phương tiện truyền thông phân tán",	 	
+            "Xin các ứng dụng thông qua SSL",	 	
+            "So sánh chữ ký virus của file với một trong những công bố trên các phương tiện truyền thông",
+            "Cài đặt các ứng dụng từ đĩa CD-ROM"
+        ]	 	
+    },
+    {
+        question: "Hầu hết các lỗi SQL Injection đều là do (chọn 2 phương án)",
+        answer: "Câu lệnh SQL sai, User làm cho câu lệnh SQL sai",
+        num : 95,
+        options: [	
+            "Câu lệnh SQL sai",	 	
+            "Câu lệnh SQL sai, User làm cho câu lệnh SQL sai",	 	
+            "User làm cho câu lệnh SQL sai",
+            "Sử dụng Hệ quản trị CSDL không có bản quyền"
+        ]	 	
+    },   
+    {
+        question: "DAC trong DBMS có mấy mức",
+        answer: "2 mức",
+        num : 96,
+        options: [	
+            "1 mức",	 	
+            "2 mức",	 	
+            "3 mức",
+            "5 mức"
+        ]	 	
+    },
+    {
+        question: "Nên cài mức truy cập mặc định là mức nào sau đây?",
+        answer: "No access",
+        num : 97,
+        options: [	
+            "Full access",	 	
+            "No access",	 	
+            "Read access",
+            "Write access"
+        ]	 	
+    },   
+    {
+        question: "26.Quyền truy cập nào cho phép ta lưu giữ một tập tin?",
+        answer: "Ghi",
+        num : 98,
+        options: [	
+            "Đọc",	 	
+            "Sao chép",	 	
+            "Hiệu chỉnh",
+            "Ghi"
+        ]	 	
+    },   
+    {
+        question: "Quyền truy cập nào cho phép ta hiệu chỉnh thuộc tính của một tập tin?",
+        answer: "Hiệu chỉnh (Modify)",
+        num : 99,
+        options: [	
+            "Hiệu chỉnh (Modify)",	 	
+            "Sao chép (Copy)",	 	
+            "Thay đổi (Change)",
+            "Biên tập ( Edit)"
+        ]	 	
+    },
+    {
+        question: "Chính sách tài khoản nào nên được thiết lập để ngăn chặn các cuộc tấn công ác ý vào tài khoản của user?",
+        answer: "Giới hạn số lần login",
+        num : 100,
+        options: [	
+            "Hạn chế thời gian",	 	
+            "Ngày hết hạn tài khoản",	 	
+            "Giới hạn số lần login",
+            "Disable tài khoản không dùng đến"
+        ]	 	
+    },   
+    
 ];
 
 const start_btn = document.querySelector(".start_quiz");
