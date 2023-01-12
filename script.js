@@ -253,7 +253,7 @@ var questions =[
     },
     {
     num: 24,
-    question: "Các bước tấn công của Web Server theo trình tự sau :",
+    question: "Các bước tấn công của Web Server theo trình tự sau:",
     answer: "Thăm dò, Scan, Giành quyền truy cập, Duy trì truy cập, Xóa vết",
     options: [
         "Thăm dò, Scan, Giành quyền truy cập, Duy trì truy cập, Xóa vết",
@@ -287,11 +287,11 @@ var questions =[
     {
     num: 27,
     question: "Mã hóa nào sau đây là một tiêu chuẩn dùng để phát triển cho việc tạo ra thông điệp an toàn?",
-    answer: "Data Encryption Standard Data Encryption Standard",
+    answer: "Data Encryption Standard",
     options: [
-            "Data Encryption Standard Data Encryption Standard",
-            "Digital Signature Standard Digital Signature Standard",
-            "Secure Hash Algorithm Secure Hash Algorithm",
+            "Data Encryption Standard",
+            "Digital Signature Standard",
+            "Secure Hash Algorithm",
             "Data Signature Standard"
         ]
     },
@@ -569,9 +569,9 @@ var questions =[
         num : 52,
         options: [	
             "A và B đúng",	 	
-            "DoS phân tán (DDoS)",	 	
-            "Tấn công IP",	 	
-            "Trojan Hors"
+            "A. DoS phân tán (DDoS)",	 	
+            "B. Tấn công IP",	 	
+            "C. Trojan Hors"
         ]	 	
     },
     {
@@ -838,6 +838,149 @@ var questions =[
             "MS.Exel, MX Word, MS.Power Point",	 	
             "MS.Exel, MX Word,Yahoo Mail",
             "Tất cả các loại file"
+        ]	 	
+    },
+    {
+        question: "Một đường truyền thông giữa thiết bị quản lý và các thiết bị được quản lý được gọi là......., nghĩa rằng tất cả các luồng truyền thông trong một mạng được phân tách ra khỏi mạng chung",
+        answer: "out of band",
+        num : 76,
+        options: [	
+            "in-band",	 	
+            "intranet",	 	
+            "out of band",
+            "inter-vlan"
+        ]	 	
+    },
+    {
+        question: "Giao thức nào sau đây được sử dụng để chia sẻ file qua mạng",
+        answer: "FTP",
+        num : 77,
+        options: [	
+            "HTTP",	 	
+            "NFS",	 	
+            "SMTP",
+            "FTP"
+        ]	 	
+    },
+    {
+        question: "fiber-optic cable là tên gọi của loại cáp nào?",
+        answer: "Cáp sợi quang",
+        num : 78,
+        options: [	
+            "Cáp xoắn đôi không bọc kim",	 	
+            "Cáp đồng trục",	 	
+            "Cáp xoắn đôi có bọc kim",
+            "Cáp sợi quang"
+        ]	 	
+    },
+    {
+        question: "Các đơn vị dữ liệu giao thức trong mô hình OSI được gọi là",
+        answer: "PDU",
+        num : 79,
+        options: [	
+            "Packet",	 	
+            "Frame",	 	
+            "CSU",
+            "PDU"
+        ]	 	
+    },
+    {
+        question: "Mô hình phân lớp OSI có bao nhiêu lớp",
+        answer: "7",
+        num : 80,
+        options: [	
+            "7",	 	
+            "4",	 	
+            "5",
+            "2"
+        ]	 	
+    },
+    {
+        question: "X.800 là một",
+        answer: "Dịch vụ an toàn",
+        num : 81,
+        options: [	
+            "Một dịch vụ không đáp ứng yêu cầu không thể từ chối (non-reputation)",	 	
+            "Một tiêu chuẩn",	 	
+            "Dịch vụ an toàn",
+            "Cơ chế an toàn"
+        ]	 	
+    },
+    {
+        question: "Cho biết đáp án nào có thế đại diện cho một địa chỉ IPv4?",
+        answer: "129.56.31.1",
+        num : 82,
+        options: [	
+            "398.172.91.164",	 	
+            "129.56.31.1",	 	
+            "177.1e.24.102",
+            "224.15.7.-117"
+        ]	 	
+    },
+    {
+        question: "Phát biểu nào sau đây sai",
+        answer: "Thông lượng (throughput) qua giao thức TCP giảm nếu tỷ lệ lỗi gói tăng.",
+        num : 83,
+        options: [	
+            "Thông lượng (throughput) qua giao thức TCP tăng nếu Round-frip time (RTT) tăng.",	 	
+            "Thông lượng (throughput) qua giao thức TCP không bị ảnh hưởng bởi số hiệu cổng.",	 	
+            "Thông lượng (throughput) qua giao thức TCP giảm nếu kích thước cửa sổ (window size) giảm.",
+            "Thông lượng (throughput) qua giao thức TCP giảm nếu tỷ lệ lỗi gói tăng."
+        ]	 	
+    },
+    {
+        question: "Khả năng định tuyến được thực hiện bởi thiết bị",
+        answer: "Router",
+        num : 84,
+        options: [	
+            "Switch",	 	
+            "NIC",	 	
+            "Router",
+            "Hub"
+        ]	 	
+    },
+    {
+        question: "Lựa chọn phát biểu chính xác về SQL Injection",
+        answer: "Là dạng tấn công để có quyền truy cập trái phép vào cơ sở dữ liệu.",
+        num : 85,
+        options: [	
+            "Là dạng tấn công để có quyền truy cập trái phép vào cơ sở dữ liệu.",	 	
+            "Là một hình thức tấn công từ chối dịch vụ (DOS)",	 	
+            "Là dạng tấn công thay đổi mã của chương trình.",
+            "Là hình thức tấn công MITM giữa SQL Server và Web app Server"
+        ]	 	
+    },
+    {
+        question: "Địa chỉ nào sau đây không thể xuất hiện trên Internet (không phải là Public IP address)?",
+        answer: "172.75.236.81",
+        num : 86,
+        options: [	
+            "169.27.53.91",	 	
+            "203.212.129.154",	 	
+            "169.254.146.237",
+            "172.75.236.81"
+        ]	 	
+    },
+    {
+        question: "Chức năng của tầng mạng là",
+        answer: "Kiểm soát lỗi và luồng dữ liệu",
+        num : 87,
+        options: [	
+            "Đóng gói dữ liệu",	 	
+            "Thực hiện chuyển mạch",	 	
+            "Thực hiện chọn đường",
+            "Kiểm soát lỗi và luồng dữ liệu"
+        ]	 	
+    },
+    {
+        question: "Lớp (layer) nào dưới đây không thuộc SSH",
+        answer: "Data Link",
+        num : 88,
+        options: [	
+            "Connection",	 	
+            "User Authentication",	 	
+            "Transport",
+            "Data Link"
         ]	 	
     },    
 ];
