@@ -1496,11 +1496,11 @@ var questions =[
         ]	 	
     },
     {
-        question: "Thuật ngữ "accounting" trong AAA liên quan đến:",
+        question: "Thuật ngữ accounting trong AAA liên quan đến:",
         answer: "Hành động nào mà người dùng (là người truy cập hợp pháp) được thực hiện",
         num : 135,
         options: [	
-            "Trong AAA không có "accounting"",	 	
+            "Trong AAA không có accounting",	 	
             "Hành động nào mà người dùng (là người truy cập hợp pháp) được thực hiện",	 	
             "Người nào được quyền truy cập vào network",
             "Ghi lại những tác vụ, công việc mà người dùng (truy cập hợp pháp) thực hiện trên mạng"
