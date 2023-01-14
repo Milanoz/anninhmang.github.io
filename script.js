@@ -995,20 +995,9 @@ var questions =[
         ]	 	
     },
     {
-        question: "Khi một hacker cố gắng tấn công một máy chủ qua Internet nó được gọi là loại tấn công?",
-        answer: "Tấn công từ xa",
-        num : 90,
-        options: [	
-            "Tấn công từ xa",	 	
-            "Tấn công truy cập vật lý",	 	
-            "Truy cập địa phương",
-            "Tấn công tấn công nội"
-        ]	 	
-    },   
-    {
         question: "Công cụ nào sau đây đúng là một công cụ để thực hiện footprinting không bị phát hiện?",
         answer: "Whois search",
-        num : 91,
+        num : 90,
         options: [	
             "Whois search",	 	
             "Traceroute",	 	
@@ -1019,7 +1008,7 @@ var questions =[
     {
         question: "Bước tiếp theo sẽ được thực hiện sau khi footprinting là gì?",
         answer: "Scanning",
-        num : 92,
+        num : 91,
         options: [	
             "Scanning",	 	
             "Enumeration",	 	
@@ -1030,7 +1019,7 @@ var questions =[
     {
         question: "Footprinting là gì?",
         answer: "tích luỹ dữ liệu bằng cách thu thập thông tin về một mục tiêu",
-        num : 93,
+        num : 92,
         options: [	
             "đo dấu vết của một hacker có đạo đức",	 	
             "tích luỹ dữ liệu bằng cách thu thập thông tin về một mục tiêu",	 	
@@ -1041,7 +1030,7 @@ var questions =[
     {
         question: "John muốn cài đặt một ứng dụng mới vào máy chủ của Windows 2000. Ông muốn đảm bảo rằng các ứng dụng bất kỳ ông sử dụng chưa được cài Trojan. Ông có thể làm gì để giúp đảm bảo điều này?",
         answer: "So sánh chữ ký MD5 của tập tin với một trong những công bố trên các phương tiện truyền thông phân tán",
-        num : 94,
+        num : 93,
         options: [	
             "So sánh chữ ký MD5 của tập tin với một trong những công bố trên các phương tiện truyền thông phân tán",	 	
             "Xin các ứng dụng thông qua SSL",	 	
@@ -1052,7 +1041,7 @@ var questions =[
     {
         question: "Hầu hết các lỗi SQL Injection đều là do (chọn 2 phương án)",
         answer: "Câu lệnh SQL sai, User làm cho câu lệnh SQL sai",
-        num : 95,
+        num : 94,
         options: [	
             "Câu lệnh SQL sai",	 	
             "Câu lệnh SQL sai, User làm cho câu lệnh SQL sai",	 	
@@ -1063,7 +1052,7 @@ var questions =[
     {
         question: "DAC trong DBMS có mấy mức",
         answer: "2 mức",
-        num : 96,
+        num : 95,
         options: [	
             "1 mức",	 	
             "2 mức",	 	
@@ -1074,7 +1063,7 @@ var questions =[
     {
         question: "Nên cài mức truy cập mặc định là mức nào sau đây?",
         answer: "No access",
-        num : 97,
+        num : 96,
         options: [	
             "Full access",	 	
             "No access",	 	
@@ -1085,7 +1074,7 @@ var questions =[
     {
         question: "26.Quyền truy cập nào cho phép ta lưu giữ một tập tin?",
         answer: "Ghi",
-        num : 98,
+        num : 97,
         options: [	
             "Đọc",	 	
             "Sao chép",	 	
@@ -1096,7 +1085,7 @@ var questions =[
     {
         question: "Quyền truy cập nào cho phép ta hiệu chỉnh thuộc tính của một tập tin?",
         answer: "Hiệu chỉnh (Modify)",
-        num : 99,
+        num : 98,
         options: [	
             "Hiệu chỉnh (Modify)",	 	
             "Sao chép (Copy)",	 	
@@ -1107,15 +1096,468 @@ var questions =[
     {
         question: "Chính sách tài khoản nào nên được thiết lập để ngăn chặn các cuộc tấn công ác ý vào tài khoản của user?",
         answer: "Giới hạn số lần login",
-        num : 100,
+        num : 99,
         options: [	
             "Hạn chế thời gian",	 	
             "Ngày hết hạn tài khoản",	 	
             "Giới hạn số lần login",
             "Disable tài khoản không dùng đến"
         ]	 	
+    },
+    {
+        question: "Hub là thiết bị hoạt động ở tầng nào của mô hình OSI",
+        answer: "Tầng vật lý",
+        num : 100,
+        options: [	
+            "Tầng vận chuyển",	 	
+            "Tầng vật lý",	 	
+            "Tầng liên kết dữ liệu",
+            "Tầng mạng"
+        ]	 	
+    },
+    {
+        question: "Để phân giải địa chỉ IP thành địa chỉ MAC, sử dụng giao thức",
+        answer: "ARP",
+        num : 101,
+        options: [	
+            "DHCP",	 	
+            "ARP",	 	
+            "RARP",
+            "ICMP"
+        ]	 	
     },   
-    
+    {
+        question: "Đầu vào và đầu ra của thuật toán MD5 là dạng ánh xạ nào?",
+        answer: "N-1",
+        num : 102,
+        options: [	
+            "1-N",	 	
+            "N-N",	 	
+            "1-1",
+            "N-1"
+        ]	 	
+    },
+    {
+        question: "Đâu là kiểu tấn công nhắm vào tính sẵn sàng (Availabily) của hệ thống",
+        answer: "Tấn công từ chối dịch vụ (Denial-of Service - Dos)",
+        num : 103,
+        options: [	
+            "Làm tràn bộ đệm (Buffer overflow)",	 	
+            "Tấn công từ chối dịch vụ (Denial-of Service - Dos)",	 	
+            "Leo thang đặc quyền (Privilege escalation)",
+            "lừa đảo (Phishing)"
+        ]	 	
+    },   
+    {
+        question: "Ứng dụng nào sau đây có thể sử dụng như một hệ thống phát hiện xâm nhập (Intrusion Detection Systems - IDS)",
+        answer: "snort",
+        num : 104,
+        options: [	
+            "iptables",	 	
+            "snort",	 	
+            "Elastic Stack (ELK Stack)",
+            "SElinux"
+        ]	 	
+    },   
+    {
+        question: "Một nhóm hacker thu thập được tên tài khoản và mặt khẩu đăng nhập dịch vụ Internet banking của 100000 khách hàng. Tuy nhiên để đăng nhập được vào dịch vụ này cần thêm một mật khẩu OTP gồm có 6 chữ số nên nhóm hacker trên đã xây dựng một kịch bản lấn công bằng cách nhập ngẫu nhiên mã OTP này. Giả thiết rằng mỗi tài khoản nhóm trên chỉ thực hiện thử việc đăng nhập một lần hỏi xác suất nhóm trên truy cập được vào ít nhất một tài khoản lợi",
+        answer: "0.000001",
+        num : 105,
+        options: [	
+            "0.000001",	 	
+            "0.904837",	 	
+            "0.095163",
+            "0.184837"
+        ]	 	
+    },   
+    {
+        question: "Cho biết đâu không phải là một công cụ dùng để phục vụ cho cuộc tấn công thăm dò",
+        answer: "SSLStrip",
+        num : 106,
+        options: [	
+            "ping",	 	
+            "arping",	 	
+            "nmap",
+            "SSLStrip"
+        ]	 	
+    },   
+    {
+        question: "Việc Bob thu lại bản tin điều khiển mở của nhà Alice rồi sử dụng bản tin đó để mở cửa đột nhập vào nhà Alice là hình thức tấn công",
+        answer: "Phát lại thông điệp (Reply)",
+        num : 107,
+        options: [	
+            "Xem trộm thông tin (Release of Message Content)",	 	
+            "Phát lại thông điệp (Reply)",	 	
+            "Thay đổi thông điệp (Modification of Messdge)",
+            "Mạo danh (Masquerade)"
+        ]	 	
+    },   
+    {
+        question: "Đầu là mục tiêu của SYN Flood",
+        answer: "Làm đầy bộ đệm kết nối ở web server.",
+        num : 108,
+        options: [	
+            "Làm đầy bộ đệm kết nối ở web server.",	 	
+            "Làm đây bộ đệm kết nối ở lớp ứng dụng.",	 	
+            "Làm đầy bộ đệm kết nối cho UDF.",
+            "Làm đầy bộ đệm kết nối ở hệ điều hành."
+        ]	 	
+    },   
+    {
+        question: "Khi mặt hacker cố gắng tấn công một máy chủ qua Intemet nó được gọi là loại tấn công.",
+        answer: "Dò tìm",
+        num : 109,
+        options: [	
+            "Đếm",	 	
+            "Tổng hợp thông tin đang hữu dụng",	 	
+            "Tấn công hệ thống",
+            "Dò tìm"
+        ]	 	
+    },   
+    {
+        question: "Phát biểu nào sau đây đầy đủ và chính xác",
+        answer: "Khi công suất thu được của tín hiệu càng lớn thì tốc độ truyền dẫn càng nhanh",
+        num : 110,
+        options: [	
+            "Khi tỷ tín hiệu trên nhiễu (SNR) càng cao thì tốc độ đường truyền sẽ càng chậm,",	 	
+            "khi tỷ tín hiệu trên nhiễu (SNR) càng cao thì tỷ lệ lỗi sẽ giảm.",	 	
+            "Khi công suất thu được của tín hiệu càng lớn thì tốc độ truyền dẫn càng nhanh",
+            "khi công suất thu được của tín hiệu càng lớn thì tỉ lỗi sẽ giảm"
+        ]	 	
+    },   
+    {
+        question: "Đâu là kiểu lấn công nhắm vào tính sẵn sàng (Avallability) của hệ thống?",
+        answer: "Tấn công từ chối dịch vụ",
+        num : 111,
+        options: [	
+            "Làm tràn bộ đệm (Buffer overllow)",	 	
+            "Tấn công từ chối dịch vụ (Denial-of-Service - DoS)",	 	
+            "Leo thang đặc quyền (Privilege escalation)",
+            "Lua dão (Phishing)"
+        ]	 	
+    },   
+    {
+        question: "Đâu không phải là nguyên nhân khiến hệ thống camera an ninh (CCTV) bị xem trộm",
+        answer: "Do đường dây tín hiệu đã xuống cấp",
+        num : 111,
+        options: [	
+            "Để lộ mật khẩu và người cùng để truy cập vào hệ thống.",	 	
+            "Chưa thay đổi mật khẩu của tài khoản mặc định.",	 	
+            "Do hệ thống tồn tại lỗ hổng.",
+            "Do đường dây tín hiệu đã xuống cấp."
+        ]	 	
+    },   
+    {
+        question: "Đâu là giải pháp để chống lại hình thức tấn công nghe lén (Eavesdrop Attack)?",
+        answer: "Mã hóa (encrypt) dữ liệu trước khi truyền",
+        num : 112,
+        options: [	
+            "Sử dụng kênh truyền thông qua cáp quang.",	 	
+            "Sử dụng chữ ký số đính kèm với dữ liệu khi truyền đi.",	 	
+            "Sử dụng kênh truyền vô tuyến,",
+            "Mã hóa (encrypt) dữ liệu trước khi truyền"
+        ]	 	
+    },   
+    {
+        question: "Cho biết thuật toán nào sau đây không được sử dụng để mã hóa (encrypt) dữ liệu trước khi truyền đi trong các giao thức VPN",
+        answer: "SHA-1",
+        num : 113,
+        options: [	
+            "3DES",	 	
+            "AES-128",	 	
+            "DES",
+            "SHA-1"
+        ]	 	
+    },   
+    {
+        question: "Dữ liệu sẽ truyền như thế nào trong mô hình OSI",
+        answer: "Application, Presentation, Session, Transport, Network, Datalink, Physical",
+        num : 114,
+        options: [	
+            "Application, Presentation, Network, Transport, DataLink, Session, Physical",	 	
+            "Application, Transport, Network Datalink, Session, Presentation, Physical",	 	
+            "Application, Network, Presentation, Sesstion, Transport, DataLink, Physical",
+            "Application, Presentation, Session, Transport, Network, Datalink, Physical"
+        ]	 	
+    },   
+    {
+        question: "Nếu một chuỗi ký tự (%3Cscripf%3Ealer||wubble'):%3C/scripf%3E được tìm thấy khi thực hiện phân tích gói tin. Loại hình lẫn công nào có khả năng đang được thực hiện",
+        answer: "Command Injection",
+        num : 115,
+        options: [	
+            "Buffer overflow",	 	
+            "Command Injection",	 	
+            "SQL Injection",
+            "Cross-site scripting (XSS)"
+        ]	 	
+    },   
+    {
+        question: "Hình thức lấn công từ chối dịch vụ (DOS) gây tác động đến tính chất nào sau đây?.",
+        answer: "Sẵn dùng (Avalabllfy)",
+        num : 116,
+        options: [	
+            "Tính toàn vẹn (Integrity)",	 	
+            "Sẵn dùng (Avalabllfy)",	 	
+            "Phân quyền (Authorization)",
+            "Tính chứng thực (Authentication)"
+        ]	 	
+    },   
+    {
+        question: "Nội dung văn bản sau khi được ký có nguy cơ bị thay đổi hay không?",
+        answer: "Có",
+        num : 117,
+        options: [	
+            "Có",	 	
+            "Không"
+        ]	 	
+    },   
+    {
+        question: "Cho biết đầu là công dụng “Private VLAN”?",
+        answer: "Cho phép tạo ra một mạng riêng độc lập hoàn toàn với các mạng khác mà chỉ cần sử dụng một bộ chuyển mạch (swich).",
+        num : 118,
+        options: [	
+            "Cho phép tạo ra một mạng riêng thông qua mạng Intemet",	 	
+            "Cho phép tạo ra một VLAN không kết nối được đến các VLAN khác.",	 	
+            "Cho phép tạo ra một mạng riêng độc lập hoàn toàn với các mạng khác mà chỉ cần sử dụng một bộ chuyển mạch (swich).",
+            "Cho phép tạo ra các VLAN trên bộ định tuyến (router)."
+        ]	 	
+    },   
+    {
+        question: "Đâu là giải pháp để chống lại hình thức tấn công nghe lên (Eavesdrop Allack)?",
+        answer: "Mã hóa (encrypt) dữ liệu trước khi truyền",
+        num : 119,
+        options: [	
+            "Sử dụng kênh truyền thông qua cáp quang.",	 	
+            "Sử dụng chữ ký số đính kèm với dữ liệu khi truyền đi,",	 	
+            "Sử dụng kênh truyền vô tuyến.",
+            "Mã hóa (encrypt) dữ liệu trước khi truyền"
+        ]	 	
+    },   
+    {
+        question: "Cho biết thuật toán nào sau đây không được sử dụng để mã hóa (encrypt) dữ liệu trước khi truyền đi trong các giao thức VPN",
+        answer: "SHA-1",
+        num : 120,
+        options: [	
+            "3DES",	 	
+            "AES-128",	 	
+            "DES",
+            "SHA-1"
+        ]	 	
+    },
+    {
+        question: "Chế độ cấu hình nào cho phép bộ điều khiển của mạng có dây hoặc không dây chuyển toàn bộ lưu lượng mang nó nhận được lên bộ xử lý (CPU) thay vì chỉ chuyển các khung dữ liệu mà bộ điều khiển mong muốn nhận được",
+        answer: "Promiscuous mode",
+        num : 121,
+        options: [	
+            "Uni-cast made",	 	
+            "Promiscuous mode",	 	
+            "WEM",
+            "Multi-cast mode"
+        ]	 	
+    },   
+    {
+        question: "Cho biết thuật ngữ nào sau đây ám chỉ rằng kết nối chỉ có thể truyền dữ liệu theo một chiều?",
+        answer: "Half-Duplex",
+        num : 122,
+        options: [	
+            "Full-Duplex",	 	
+            "Half-Duplex",	 	
+            "Duplex",
+            "Simplex"
+        ]	 	
+    },   
+    {
+        question: "Chuỗi ký tự nào sau đây sử dụng để đặt mặt khẩu là an toàn nhất",
+        answer: "p&amp,uyE5L31",
+        num : 123,
+        options: [	
+            "babygirl1",	 	
+            "Sample123",	 	
+            "iloveu",
+            "p&amp,uyE5L31"
+        ]	 	
+    },   
+    {
+        question: "Đâu là mục tiêu của việc sử dụng mã đa hình (polymorphic code) của các mã độc:",
+        answer: "Để tránh các phần mềm diệt virút phát hiện.",
+        num : 124,
+        options: [	
+            "Để tránh các phần mềm diệt virút phát hiện.",	 	
+            "Để lan truyền mà độc.",	 	
+            "Tăng hiệu quả thực thi.",
+            "Để biên dịch nhanh hơn."
+        ]	 	
+    },   
+    {
+        question: "Tại sao việc lưu trữ nhật ký (log5) từ xa (remotely) rất quan trọng",
+        answer: "Kẻ tấn công có thể xóa nhật ký cục bộ (local logs).",
+        num : 125,
+        options: [	
+            "Kẻ tấn công có thể xóa nhật ký cục bộ (local logs).",	 	
+            "Nó cho phép chống lại các cuộc lấn công.",	 	
+            "Vì hệ thống cục bộ (local) không thể xử lý được.",
+            "Lưu trữ từ xa nhanh hơn so với sử dụng ổ đĩa."
+        ]	 	
+    },   
+    {
+        question: "Để biết một máy tính sử dụng hệ điều hành Microsoft Windows đang có chức năng chia sẻ (sharing) được kích hoạt. Thì chúng ta có thể kiểm tra cổng nào đang được lắng nghe (istening) trên máy tính trên?",
+        answer: "21",
+        num : 126,
+        options: [	
+            "80",	 	
+            "1443",	 	
+            "445",
+            "21"
+        ]	 	
+    },   
+    {
+        question: "Jimmy lợi dụng việc thiết kế hệ thống kiểm tra dữ liệu được nhập vào kém để chèn các câu lệnh SQL cho phép truy cập vào dữ liệu riêng hoặc thực thi các lệnh này trên cơ sở dữ liệu. Đâu là phát biểu chính xác?",
+        answer: "Jimmy đã khai thác được lỗ hồng SQL Injection.",
+        num : 127,
+        options: [	
+            "Đây là một hình thức tấn công từ chối dịch vụ (DOS)",	 	
+            "Jimmy đã khai thác được lỗ hồng SQL Injection.",	 	
+            "Jimmy đã thực hiện cuộc tấn công nhằm thay đổi giao diện trang web.",
+            "Jimmy đã thực hiện kỹ thuật cho phép tạo ra một shell viết bằng PHP lên máy chủ web để mở cửa sau cho phép truy cập vào hệ thống."
+        ]	 	
+    },   
+    {
+        question: "Phát biểu nào sau đây sai",
+        answer: "Cả giao thức TCP và UDP đều sử dụng số hiệu cổng để phân biệt các phiên.",
+        num : 128,
+        options: [	
+            "Cả giao thức TCP và UDP đều hỗ trợ chế độ hoạt động quảng bá (breadcasting).",	 	
+            "Giao thức UDP có phần header nhỏ hơn so với giao thức TCP.",	 	
+            "Cả giao thức TCP và UDP đều sử dụng số hiệu cổng để phân biệt các phiên.",
+            "Giao thủng TCP có phần header có kích thước không cố định."
+        ]	 	
+    },   
+    {
+        question: "Mục đích của giao thức TLS là?",
+        answer: "Mã hóa",
+        num : 129,
+        options: [	
+            "Tạo chữ ký số",	 	
+            "Mã hóa",	 	
+            "Chứng thực (Authentication)",
+            "Tạo ra một kết nối an toàn"
+        ]	 	
+    },   
+    {
+        question: "Dịch vụ nào cho phép người sử dụng từ một trạm làm việc của mình có thể đăng nhập vào một trạm ở xa qua mạng và có thể làm việc với hệ thống",
+        answer: "Telnet",
+        num : 130,
+        options: [	
+            "FTP",	 	
+            "HTTP",	 	
+            "Telnet",
+            "Email"
+        ]	 	
+    },
+    {
+        question: "Chứng thực (Authentication) dùng để phòng chống hình thức lần công nào sau đây",
+        answer: "Mạo danh (Masquerade)",
+        num : 131,
+        options: [	
+            "Thay đổi thông điệp (Mocillcation of Message)",	 	
+            "Mạo danh (Masquerade)",	 	
+            "Phát lại thông điệp (Replay)",
+            "Xem trộm thông tin (Release of Message Content)"
+        ]	 	
+    },
+    {
+        question: "Vius có thể viết lại chính nó, gia tăng việc khó nhận diện, thay đổi hành vi và sự xuất hiện",
+        answer: "Đúng",
+        num : 132,
+        options: [	
+            "Sai",	 	
+            "Đúng" 	  
+        ]	 	
+    },
+    {
+        question: "Cơ chế nào không chỉ rõ việc sử dụng cho giao thức trên tầng nào hoặc dịch vụ an ninh cụ thể",
+        answer: "Cơ chế an toàn thông dụng",
+        num : 133,
+        options: [	
+            "Cơ chế an toàn thông dụng",	 	
+            "Cơ chế an toàn chuyên dụng",	 	
+            "Cả hai cơ chế",
+        ]	 	
+    },
+    {
+        question: "Sửa đổi thông tin, thay đổi tình trạng hoặc hoạt động của hệ thống liên quan đến:",
+        answer: "Hiểm họa chủ động",
+        num : 134,
+        options: [	
+            "Hiểm họa cố ý",	 	
+            "Hiểm họa thụ động",	 	
+            "Hiểm họa chủ động",
+            "Hiểm họa vô tình"
+        ]	 	
+    },
+    {
+        question: "Thuật ngữ "accounting" trong AAA liên quan đến:",
+        answer: "Hành động nào mà người dùng (là người truy cập hợp pháp) được thực hiện",
+        num : 135,
+        options: [	
+            "Trong AAA không có "accounting"",	 	
+            "Hành động nào mà người dùng (là người truy cập hợp pháp) được thực hiện",	 	
+            "Người nào được quyền truy cập vào network",
+            "Ghi lại những tác vụ, công việc mà người dùng (truy cập hợp pháp) thực hiện trên mạng"
+        ]	 	
+    },
+    {
+        question: "Polymorphic virus là loại virus:",
+        answer: "Thay đổi cách nhiễm",
+        num : 136,
+        options: [	
+            "Có thể viết lại chính nó",	 	
+            "Tất cả đều sai.",	 	
+            "Là một chương trình độc lập",
+            "Thay đổi cách nhiễm"
+        ]	 	
+    },
+    {
+        question: "Demilitarized zone (DMZ) là thuật ngữ liên quan đến:",
+        answer: "Vùng network (network area) mà người dùng bên ngoài mạng (so với firewall: outside firewall) được truy cập",
+        num : 137,
+        options: [	
+            "Vùng network (network area) mà chỉ có người dùng bên trong mạng (so với firewall: inside firewall) được truy cập",	 	
+            "Vùng network (network area) mà người dùng không được làm gì",	 	
+            "Vùng network (network area) mà người dùng bên ngoài mạng (so với firewall: outside firewall) được truy cập",
+            "Vùng network (network area) chỉ có quản trị viên được truy cập"
+        ]	 	
+    },
+    {
+        question: "Gói tin Gratuitous ARP",
+        answer: "Là gói tin ARP Request gửi bởi client",
+        num : 138,
+        options: [	
+            "Là gói tin ARP Request gửi bởi client",	 	
+            "Là gói tin ARP Reply gửi bởi client",	 	
+        ]	 	
+    },
+    {
+        question: "Câu lệnh “no cdp run” dùng để:",
+        answer: "Để ngắt chế độ hoạt động của giao thức cdp trên thiết bị",
+        num : 139,
+        options: [	
+            "Dùng để kích hoạt cdp trên thiết bị",	 	
+            "Để ngắt chế độ hoạt động của giao thức cdp trên thiết bị",	 	
+            "Để ngắt chế độ hoạt động của giao thức cdp trên một cổng của thiết bị",
+        ]	 	
+    },
+    {
+        question: "Kiểu chương trình nào sau đây nhân bản bằng cách ghép bản thân thành một phần của chương trình khác?",
+        answer: "Virus",
+        num : 140,
+        options: [	
+            "Trojan",	 	
+            "Virus",	 	
+            "Zombie",
+            "Worm"
+        ]	 	
+    },
 ];
 
 const start_btn = document.querySelector(".start_quiz");
