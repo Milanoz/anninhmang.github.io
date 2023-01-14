@@ -1558,6 +1558,112 @@ var questions =[
             "Worm"
         ]	 	
     },
+    {
+        question: "Thuật ngữ threat actor liên quan đến:",
+        answer: "Chỉ người có quyền truy cập bất hợp pháp vào mạng bằng cách chỉnh sửa hoặc lợi dụng lỗ hổng bảo mật.",
+        num : 141,
+        options: [	
+            "Chỉ phần mềm được cài đặt bất hợp pháp vào mạng.",	 	
+            "Chỉ người có quyền truy cập vào mạng để ngăn chặt các truy cập bất hợp pháp.",	 	
+            "Chỉ phần mềm trong mạng bị chỉnh sửa bất hợp pháp.",
+            "Chỉ người có quyền truy cập bất hợp pháp vào mạng bằng cách chỉnh sửa hoặc lợi dụng lỗ hổng bảo mật."
+        ]	 	
+    },
+    {
+        question: "ARP Spoofing là kiểu tấn công mà trong đó:",
+        answer: "Người tấn công sửa địa chỉ MAC (trong gói tin) máy của mình để khớp với địa chỉ MAC của máy muốn tấn công để gói tin chuyển cho máy nạn nhân được chuyển về máy của mình",
+        num : 142,
+        options: [	
+            "Người tấn công sửa địa chỉ MAC (trong gói tin) tất cả các máy thành địa chỉ MAC máy của mình để bảng cập nhật ARP bị lỗi",	 	
+            "Người tấn công sửa địa chỉ MAC (trong gói tin) máy của mình để khớp với địa chỉ MAC của máy muốn tấn công để gói tin chuyển cho máy nạn nhân được chuyển về máy của mình",	 	
+            "Người tấn công xóa bảng ARP của thiết bị quản lý.",
+        ]	 	
+    },
+    {
+        question: "Chương trình nào có các giai đoạn như virus và có khả năng copy tới hệ thống từ xa và kích hoạt bản copy",
+        answer: "Trojan",
+        num : 143,
+        options: [	
+            "Worm",	 	
+            "Zombie",	 	
+            "Trojan",
+        ]	 	
+    },
+    {
+        question: "Tự hủy là một trong các giai đoạn của virus",
+        answer: "Sai",
+        num : 144,
+        options: [	
+            "Đúng",	 	
+            "Sai",	 	
+        ]	 	
+    },
+    {
+        question: "Kiểu chương trình nào sau đây có khả năng tự nhân bản không cần can thiệp của người sử dụng hay chương trình khác",
+        answer: "Worm",
+        num : 145,
+        options: [	
+            "Virus",	 	
+            "Zombie",	 	
+            "Trojan",
+            "Worm"
+        ]	 	
+    },
+    {
+        question: "Các công cụ ứng dụng như Trust exploitation và Man-in-the-middle được sử dụng trong kiểu tấn công nào?",
+        answer: "Access attacks",
+        num : 146,
+        options: [	
+            "Denial of service",	 	
+            "Replay attack",	 	
+            "Reconnaissance attacks",
+            "Access attacks"
+        ]	 	
+    },
+    {
+        question: "Tính chất Non-repudiation có nghĩa là:",
+        answer: "Người gửi không phủ nhận được là tôi đã gửi thông tin và Người nhận không thể phủ nhận là mình chưa nhận được thông tin",
+        num : 147,
+        options: [	
+            "Người nhận không thể phủ nhận là mình chưa nhận được thông tin",	 	
+            "Người gửi không phủ nhận được là tôi đã gửi thông tin và Người nhận không thể phủ nhận là mình chưa nhận được thông tin",	 	
+            "Người gửi không phủ nhận được là tôi đã gửi thông tin",
+            "Người nhận không thể phủ nhận là mình chưa nhận được thông tin hoặc Người gửi không phủ nhận được là tôi đã gửi thông tin"
+        ]	 	
+    },
+    {
+        question: "Thứ tự một số giai đoạn của Virus là:",
+        answer: "Nằm im - Lan truyền - Kích hoạt",
+        num : 148,
+        options: [	
+            "Nằm im - Lan truyền - Kích hoạt",	 	
+            "Kích hoạt - Nằm im - Lan truyền",	 	
+            "Tất cả đều sai",
+            "Lan truyền - Nằm im - Kích hoạt"
+        ]	 	
+    },
+    {
+        question: "Giao thức nào dùng riêng cho thiết bị CISO.",
+        answer: "LDP",
+        num : 149,
+        options: [	
+            "Không có giao thức nào",	 	
+            "BGP",	 	
+            "LDP",
+            "STP"
+        ]	 	
+    },
+    {
+        question: "Câu lệnh interface range dùng để:",
+        answer: "Sử dụng khi cấu hình chung cho một nhóm cổng",
+        num : 150,
+        options: [	
+            "Tất cả đều sai",	 	
+            "Dùng đặt tên cổng là range",	 	
+            "Sử dụng khi cấu hình chung cho một nhóm cổng",
+            "Dùng truy xuất nhóm cổng có tên là range"
+        ]	 	
+    },
 ];
 
 const start_btn = document.querySelector(".start_quiz");
