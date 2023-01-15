@@ -696,14 +696,14 @@ var questions =[
     },
     {
         question: "Đâu là những yếu tố của nguyên tắc phân chia công việc trong bảo mật hệ thống:",
-        answer: "Bao gồm hai người và điều khiển vận hành kép.", 	
+        answer: "E.Đáp Án B và C đúng", 	
         num : 63,
         options: [	
-            "Các người sử dụng hệ thống duy trì mối quan hệ tay dài với kiểm soát an ninh.",
-            "Bao gồm hai người và điều khiển vận hành kép.",
-            "Đảm bảo rằng không ai có thể thỏa hiệp toàn bộ hệ thống.",
-            "Các cá nhân xoay vòng các nhiệm vụ liên quan đến an ninh để không ai chịu trách nhiệm vĩnh viễn cho một chức năng nhạy cảm.",
-            "Đào tạo lại nhân sự liên tục."
+            "A.Các người sử dụng hệ thống duy trì mối quan hệ tay dài với kiểm soát an ninh.",
+            "B.Bao gồm hai người và điều khiển vận hành kép.",
+            "C.Đảm bảo rằng không ai có thể thỏa hiệp toàn bộ hệ thống.",
+            "D.Các cá nhân xoay vòng các nhiệm vụ liên quan đến an ninh để không ai chịu trách nhiệm vĩnh viễn cho một chức năng nhạy cảm.",
+            "E.Đáp Án B và C đúng"
         ]
     },
     {
