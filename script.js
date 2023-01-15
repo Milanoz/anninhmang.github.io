@@ -450,7 +450,7 @@ var questions =[
         ]	 	
     },
     {
-        question: "Các loại mục tiêu của chiến tranh thông tin",
+        question: "Chính sách bảo mật là",
         answer: "phương thức xác định các hành vi “phù hợp” của các đối tượng tương tác với hệ thống",	
         num : 42,
         options: [	
