@@ -1232,7 +1232,7 @@ var questions =[
             "Làm tràn bộ đệm (Buffer overllow)",	 	
             "Tấn công từ chối dịch vụ (Denial-of-Service - DoS)",	 	
             "Leo thang đặc quyền (Privilege escalation)",
-            "Lua dão (Phishing)"
+            "Lừa đảo (Phishing)"
         ]	 	
     },   
     {
