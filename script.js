@@ -1226,7 +1226,7 @@ var questions =[
     },   
     {
         question: "Đâu là kiểu lấn công nhắm vào tính sẵn sàng (Avallability) của hệ thống?",
-        answer: "Tấn công từ chối dịch vụ",
+        answer: "Tấn công từ chối dịch vụ (Denial-of-Service - DoS)",
         num : 111,
         options: [	
             "Làm tràn bộ đệm (Buffer overllow)",	 	
