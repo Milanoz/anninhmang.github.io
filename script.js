@@ -1367,13 +1367,13 @@ var questions =[
     },   
     {
         question: "Chuỗi ký tự nào sau đây sử dụng để đặt mặt khẩu là an toàn nhất",
-        answer: "p&amp,uyE5L31",
+        answer: "p&ampuyE5L31",
         num : 123,
         options: [	
             "babygirl1",	 	
             "Sample123",	 	
             "iloveu",
-            "p&amp,uyE5L31"
+            "p&ampuyE5L31"
         ]	 	
     },   
     {
