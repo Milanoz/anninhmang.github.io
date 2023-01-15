@@ -363,7 +363,7 @@ var questions =[
     },
     {
     question: "Ai là người tham gia vào việc phát triển đầu tiên hệ thống mã hóa khóa công",
-    answer: "Martin Hellman Martin Hellman",	
+    answer: "Martin Hellman",	
     num : 34,
     options: [	
              "Martin Hellman", 	 	
@@ -1237,7 +1237,7 @@ var questions =[
     },   
     {
         question: "Đâu không phải là nguyên nhân khiến hệ thống camera an ninh (CCTV) bị xem trộm",
-        answer: "Do đường dây tín hiệu đã xuống cấp",
+        answer: "Do đường dây tín hiệu đã xuống cấp.",
         num : 111,
         options: [	
             "Để lộ mật khẩu và người cùng để truy cập vào hệ thống.",	 	
@@ -2260,9 +2260,6 @@ const mark_wrong = '<i class="fa fa-times"></i>';
 const mark_check = '<i class="fa fa-check"></i>';
 
 let shuffledQuestions
-
-shuffledQuestions = questions.sort(() => Math.random() - .5)
-
 start_btn.onclick =()=>{
     quiz_box.classList.remove("inactive");
     start_btn.classList.add("inactive");
