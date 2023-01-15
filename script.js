@@ -366,10 +366,10 @@ var questions =[
     answer: "Martin Hellman Martin Hellman",	
     num : 34,
     options: [	
-             "Martin Hellman Martin Hellman", 	 	
-             "Adi ShamiAdi Shamir",	 	
-             "Ross Anderson Ross Anderson",	 	
-             "Bruce Schneier Bruce Schneier"
+             "Martin Hellman", 	 	
+             "Adi Shamir",	 	
+             "Ross Anderson",	 	
+             "Bruce Schneier"
         ]	
     }, 	
     {
@@ -417,7 +417,6 @@ var questions =[
         ]	
     },
     {
-        
         question: "FTP sử dụng cổng gì ?",
         answer: "21", 	
         num : 39,
@@ -1664,6 +1663,222 @@ var questions =[
             "Dùng truy xuất nhóm cổng có tên là range"
         ]	 	
     },
+    {
+        question: "Để tìm ra các thông tin chung như cấu trúc mạng, dải địa chỉ sử dụng trong mạng, hệ điều hành mạng, .... ta sử dụng:",
+        answer: "Reconnaissance attacks",
+        num : 151,
+        options: [	
+            "Man-in-the-middle",	 	
+            "Access attacks",	 	
+            "Denial of service",
+            "Reconnaissance attacks"
+        ]	 	
+    },
+    {
+        question: "Tấn công từ chối dịch vụ:",
+        answer: "Gây cho các Client không thể kết nối vào server bằng cách sử dụng hết tài nguyên trên server.",
+        num : 152,
+        options: [	
+            "Gây cho các Client không thể kết nối vào server bằng cách sử dụng hết tài nguyên trên server.",	 	
+            "Không gây khó khăn kết nối nhưng xóa dữ liệu trên máy chủ, làm máy khách không truy cập được",	 	
+            "Không gây khó khăn kết nối nhưng khiến yêu cầu của máy khách bị chuyển đến địa chỉ khác.",
+            "Tất cả đều sai."
+        ]	 	
+    },
+    {
+        question: "Theo kiến trúc an ninh X800, tính XÁC THỰC liên quan đến:",
+        answer: "Tin tưởng thực thể đang trao đổi thông tin đúng như là thực thể đã tuyên bố.",
+        num : 153,
+        options: [	
+            "Tất cả các tính chất trên.",	 	
+            "Dữ liệu trao đổi được xác định là an toàn.",	 	
+            "Quyền của thực thể là xác định.",
+            "Tin tưởng thực thể đang trao đổi thông tin đúng như là thực thể đã tuyên bố."
+        ]	 	
+    },
+    {
+        question: "Theo tài liệu tham khảo, các giai đoạn của Virus bao gồm:",
+        answer: "Nằm im, Lan truyền, Thực hiện bộ tải",
+        num : 154,
+        options: [	
+            "Lan truyền, Nằm Im, Thực hiện bộ tải, Kích hoạt",	 	
+            "Lan truyền, Nằm Im, Kích hoạt, Đóng",	 	
+            "Nằm Im, Kích hoạt, Lan Truyền, Đóng",
+            "Nằm im, Lan truyền, Thực hiện bộ tải"
+        ]	 	
+    },
+    {
+        question: "Nhằm truy cập trái phép vào hệ thống hoặc dữ liệu của người dùng, sử dụng kiểu tấn công:",
+        answer: "Access attacks",
+        num : 155,
+        options: [	
+            "Access attacks",	 	
+            "Replay attack",	 	
+            "Reconnaissance attacks",
+            "Denial of service"
+        ]	 	
+    },
+    {
+        question: "Đặc tính nào của hệ thống bảo mật ngăn chặn vấn đề Replay",
+        answer: "Authentication",
+        num : 156,
+        options: [	
+            "Confidentiality",	 	
+            "Authentication",	 	
+            "ThreatRemove",
+            "Nonrepudiation"
+        ]	 	
+    },
+    {
+        question: "Mục đích giả mạo, thay đổi nội dung gói tin hay từ chối dịch vụ liên quan đến loại tấn công nào:",
+        answer: "Chủ động",
+        num : 157,
+        options: [	
+            "Bị động",	 	
+            "Chủ động",	 	
+            "Cả hai loại tấn công",
+        ]	 	
+    },
+    {
+        question: "Nguyên nhân nào có thể dẫn đến các nguy cơ mất an toàn mạng:",
+        answer: "Tất cả các lựa chọn.",
+        num : 158,
+        options: [	
+            "Chính sách liên quan đến bảo mật an toàn thông tin.",	 	
+            "Từ phía người sử dụng.",	 	
+            "Tất cả các lựa chọn.",
+            "Bản thân hệ thống thông tin (kiến trúc, tổ chức kỹ thuật, ...)."
+        ]	 	
+    },
+    {
+        question: "Kiểu tấn công DHCP Starvation",
+        answer: "Là kiểu tấn công tạo ra một DoS đến các clients đang kết nối",
+        num : 159,
+        options: [	
+            "Là kiểu tấn công trong đó DHCP server bị thay đổi giải địa chỉ",	 	
+            "Là kiểu tấn công trong đó có một server DHCP giả được nối vào mạng và cung cấp địa chỉ IP sai cho client",	 	
+            "Là kiểu tấn công tạo ra một DoS đến các clients đang kết nối",
+        ]	 	
+    },
+    {
+        question: "Giao thức nào dùng để chứng thực dựa trên mã hóa công khai:",
+        answer: "X509",
+        num : 160,
+        options: [	
+            "Keberos",	 	
+            "Secure Socket Layer (SSL)",	 	
+            "PGB và S/MIME",
+            "X509"
+        ]	 	
+    },
+    {
+        question: "Firewall được dùng để lọc:",
+        answer: "Tất cả đều đúng",
+        num : 161,
+        options: [	
+            "Các ứng dụng (Application)",	 	
+            "Tất cả đều đúng",	 	
+            "Các gói tin (packet)",
+            "Các URL"
+        ]	 	
+    },
+    {
+        question: "Đặc tính nào của hệ thống bảo mật ngăn chặn vấn đề Masquerade:",
+        answer: "Authentication",
+        num : 162,
+        options: [	
+            "Confidentiality",	 	
+            "Norepudiation",	 	
+            "Security",
+            "Authentication"
+        ]	 	
+    },
+    {
+        question: "Đặc tính nào ngăn chặn vấn đề Release of Message Content",
+        answer: "Confidentiality",
+        num : 163,
+        options: [	
+            "Authentication",	 	
+            "Not at all",	 	
+            "Confidentiality",
+            "Norepudiation"
+        ]	 	
+    },
+    {
+        question: " Nghe trộm gói tin trên đường truyền liên quan đến:",
+        answer: "Hiểm họa chủ động",
+        num : 164,
+        options: [	
+            "Hiểm họa cố ý",	 	
+            "Hiểm họa vô tình",	 	
+            "Hiểm họa chủ động",
+            "Hiểm họa thụ động"
+        ]	 	
+    },
+    {
+        question: "Giao thức nào dùng để chứng thực dựa trên mã hóa đối xứng:",
+        answer: "Keberos",
+        num : 165,
+        options: [	
+            "Secure Socket Layer (SSL)",	 	
+            "PGB và S/MIME",	 	
+            "Keberos",
+            "X509"
+        ]	 	
+    },
+    {
+        question: "Hành động Phát lại thông điệp liên quan đến:",
+        answer: "Chỉnh sửa nội dung, và gửi lại thông điệp.",
+        num : 166,
+        options: [	
+            "Chỉnh sửa nội dung, và gửi lại thông điệp.",	 	
+            "Tất cả đều sai.",	 	
+            "Gửi lại thông điệp mà không chỉnh sửa nội dung.",
+        ]	 	
+    },
+    {
+        question: "Giao thức nào dùng để bảo mật thư điện tử email:",
+        answer: "S/MIME",
+        num : 167,
+        options: [	
+            "Keberos",	 	
+            "Secure Socket Layer (SSL)",	 	
+            "X509",
+            "S/MIME"
+        ]	 	
+    },
+    {
+        question: "Tấn công từ chối dịch vụ sẽ liên quan đến kiểu chương trình:",
+        answer: "Zombie",
+        num : 168,
+        options: [	
+            "Bomlogic",	 	
+            "Tất cả đều sai",	 	
+            "Trojan",
+            "Zombie"
+        ]	 	
+    },
+    {
+        question: "Lấy nội dung bản tin hoặc theo dõi luồng truyền tin là loại tấn công nào:",
+        answer: "Bị động",
+        num : 169,
+        options: [	
+            "Bị động",	 	
+            "Đều không phải",	 	
+            "Chủ động",
+        ]	 	
+    },
+    {
+        question: "Thế hệ antivirus First generation liên quan đến:",
+        answer: "Simple scanners",
+        num : 170,
+        options: [	
+            "Simple scanners",	 	
+            "Heuristic scanners",	 	
+            "Aitivity traps",
+            "Full-featured protection."
+        ]	 	
+    },    
 ];
 
 const start_btn = document.querySelector(".start_quiz");
@@ -1689,7 +1904,6 @@ let shuffledQuestions
 
 shuffledQuestions = questions.sort(() => Math.random() - .5)
 
-
 start_btn.onclick =()=>{
     quiz_box.classList.remove("inactive");
     start_btn.classList.add("inactive");
@@ -1705,25 +1919,29 @@ var wrong_answers = 0;
 count_que.innerText = que_index+1;
 ShowQuestion(que_index);
 
+
 function ShowQuestion(q_index){
+
     que_text.innerText = questions[q_index].num+". "+ questions[q_index].question;
-var option_statement = "";
-for(var i=0; i<questions[q_index].options.length; i++){
-    option_statement += `<div class="option">${questions[q_index].options[i]}</div>`;
-    var testing = document.getElementById("point");
-    testing.innerHTML = `${score} of ${questions.length} Điểm`
-}
+
+
+    const test = questions[q_index].options.sort(() => Math.random()-0.5);
+    console.log(test);
+    var option_statement ="";   
+    for(var i=0; i<questions[q_index].options.length; i++){
+        option_statement += `<div class="option">${questions[q_index].options[i]}</div>`;
+        var testing = document.getElementById("point");
+        testing.innerHTML = `${score} of ${questions.length} Điểm`
+    }
+    
 
 options_box.innerHTML = option_statement;
-
 var AllOptions = options_box.querySelectorAll(".option");
-
     for(var j=0; j<AllOptions.length; j++){
         AllOptions[j].setAttribute("onclick","UserAnswer(this)");
     }
     next_btn.classList.add("inactive");
 }
-
 
 next_btn.onclick=()=>{
     que_index++;
@@ -1738,15 +1956,12 @@ next_btn.onclick=()=>{
         right_ans_r.innerText = right_answers;
         wrong_ans_r.innerText = wrong_answers;
         percentage.innerText = ((right_answers*100)/questions.length).toFixed(2)+"%";
-
-        
     }
 
     if(questions.length-1==que_index){
         next_btn.innerText = "Finish";
     }
 }
-
 function UserAnswer(answer){
     let userAns = answer.innerText;
     let correctAns = questions[que_index].answer;
@@ -1778,6 +1993,8 @@ function UserAnswer(answer){
     for(var j=0; j<AllOptions2.length; j++){
         AllOptions2[j].classList.add("disabled");
     }
+
+    //Random
 
 }
 
