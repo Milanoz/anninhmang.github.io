@@ -220,7 +220,7 @@ var questions =[
     },
     {
     num: 21,
-    question: "42. Hai giao thức sử dụng trong IPSec (IPSec Protocol) gồm",
+    question: "Hai giao thức sử dụng trong IPSec (IPSec Protocol) gồm",
     answer: "IP Authentication Header, IP Encapsulating Security Payload",
     options: [
             "TCP/IP, IP Encapsulating Security Payload",
@@ -575,11 +575,11 @@ var questions =[
     },
     {
         question: "Để ngăn tấn công DoS, một quản trị mạng chặn nguồn IP với tường lửa, nhưng tấn công vẫn tiếp diễn. Điều gì có khả năng xảy ra nhất",
-        answer: "A và B đều có thể xảy ra",	
+        answer: "Sâu DoS đã lây nhiễm cục bộ, Phần mềm Antivirus cần được cài đặt trên máy chủ đích",	
         num : 53,
         options: [	
-            "A và B đều có thể xảy ra",	 	
-            "A và B đều không thể xảy ra",	 	
+            "Sâu DoS đã lây nhiễm cục bộ, Phần mềm Antivirus cần được cài đặt trên máy chủ đích",	 	
+            "Không có Sâu DoS đã lây nhiễm cục bộ và phần mềm Antivirus không cần cài đặt trên máy chủ đích",	 	
             "Sâu DoS đã lây nhiễm cục bộ",	 	
             "Phần mềm Antivirus cần được cài đặt trên máy chủ đích"
         ]	 	
@@ -1038,7 +1038,7 @@ var questions =[
         ]	 	
     },
     {
-        question: "Hầu hết các lỗi SQL Injection đều là do (chọn 2 phương án)",
+        question: "Hầu hết các lỗi SQL Injection đều là do",
         answer: "Câu lệnh SQL sai, User làm cho câu lệnh SQL sai",
         num : 94,
         options: [	
@@ -1642,17 +1642,6 @@ var questions =[
         ]	 	
     },
     {
-        question: "Giao thức nào dùng riêng cho thiết bị CISO.",
-        answer: "LDP",
-        num : 149,
-        options: [	
-            "Không có giao thức nào",	 	
-            "BGP",	 	
-            "LDP",
-            "STP"
-        ]	 	
-    },
-    {
         question: "Câu lệnh interface range dùng để:",
         answer: "Sử dụng khi cấu hình chung cho một nhóm cổng",
         num : 150,
@@ -1878,7 +1867,377 @@ var questions =[
             "Aitivity traps",
             "Full-featured protection."
         ]	 	
-    },    
+    },
+    {
+        question: "Cơ chế nào được cái đặt trong một giao thức của tầng chuyển vận: mã hóa, chữ ký điện tử, quyền truy cập, ...",
+        answer: "Cơ chế an toàn thông dụng",
+        num : 170,
+        options: [	
+            "Cơ chế an toàn thông dụng",	 	
+            "Cả hai cơ chế",	 	
+            "Cơ chế an toàn chuyên dụng",
+        ]	 	
+    },
+    {
+        question: "Giao thức nào có thể dùng cho cả thiết bị của CISCO và các thiết bị của nhà cung cấp khác.",
+        answer: "LLDP",
+        num : 171,
+        options: [	
+            "LLDP",	 	
+            "Tất cả đều sai",	 	
+            "CDP",
+        ]	 	
+    },
+    {
+        question: "Các giao thức được để bảo mật thư điện tử là",
+        answer: "GPG, S/MINE",
+        num : 172,
+        options: [	
+            "GPG, S/MINE",	 	
+            "SHA-1, S/MINE",	 	
+            "CAST-128 / IDEA/3DES",
+            "Keboros, X.509"
+        ]	 	
+    },
+    {
+        question: "Cơ cấu bảo mật nào sau đây được sử dụng với chuẩn không dây WAP ?",
+        answer: "WTLS",
+        num : 173,
+        options: [	
+            "WTLS",	 	
+            "SSL",	 	
+            "HTTPS",
+            "Mã hóa WEP"
+        ]	 	
+    },
+    {
+        question: "Giao thức nào dùng riêng cho thiết bị Cisco",
+        answer: "Không có giao thức nào",
+        num : 174,
+        options: [	
+            "Không có giao thức nào",	 	
+            "BGP",	 	
+            "STP",
+            "LDP"
+        ]	 	
+    },
+    {
+        question: "Giao thức Cisco Discovery Protocol (CDP) :",
+        answer: "Là giao thức Layer 2 dành riêng cho thiết bị CISCO",
+        num : 175,
+        options: [	
+            "Là giao thức Layer 2 dành riêng cho thiết bị CISCO",	 	
+            "Là giao thức Layer 3 dùng riêng cho thiết bị CISCO và các thiết bị khác",	 	
+            "Là giao thức Layer 2 dùng cho thiết bị CISCO và các thiết bị khác",
+            "Là giao thức Layer 3 dùng riêng cho thiết bị CISCO"
+        ]	 	
+    },
+    {
+        question: "Câu lệnh switchport port-security mac-address sticky là chế độ cấu hình nào:",
+        answer: "Dynamically learned sticky",
+        num : 176,
+        options: [	
+            "Dynamically learned sticky",	 	
+            "Manually sticky",	 	
+            "Dynamically learned",
+            "Manully configed"
+        ]	 	
+    },
+    {
+        question: "Thế hệ antivirus Third generation liên quan đến:",
+        answer: "Aitivity traps",
+        num : 177,
+        options: [	
+            "Full-featured protection.",	 	
+            "Aitivity traps",	 	
+            "Simple scanners",
+            "Heuristic scanners"
+        ]	 	
+    },
+    {
+        question: "Giao thức nào dùng phổ biến trong Web và thương mại điện tử:",
+        answer: "Secure Socket Layer (SSL)",
+        num : 178,
+        options: [	
+            "X509",	 	
+            "Secure Socket Layer (SSL)",	 	
+            "Keberos",
+            "PGB và S/MIME"
+        ]	 	
+    },
+    {
+        question: "Giao thức nào dùng riêng cho thiết bị CISO.",
+        answer: "CDP",
+        num : 179,
+        options: [	
+            "BGP",	 	
+            "CDP",	 	
+            "Không có giao thức nào",
+            "LDP"
+        ]	 	
+    },
+    {
+        question: "Theo kiến trúc an ninh X800 TOÀN VẸN DỮ LIỆU liên quan đến:",
+        answer: "Dữ liệu không bị khám phá, đọc bởi người không có quyền.",
+        num : 180,
+        options: [	
+            "Dữ liệu không bị thay đổi quá mức cho phép.",	 	
+            "Dữ liệu không bị khám phá, đọc bởi người không có quyền.",	 	
+            "Tất cả các tính chất trên.",
+            "Nếu dữ liệu có thay đổi như trì hoãn về thời gian, sửa đổi thông tin thì xác thực sẽ cho cách kiểm tra nhận biết có các hiện tượng đó."
+        ]	 	
+    },
+    {
+        question: "Timestamp trong message",
+        answer: "Dùng để xác định thời gian hết hạn",
+        num : 181,
+        options: [	
+            "Dùng để ghi nhận số lần trao đổi",	 	
+            "Dùng để xác định thời gian hết hạn",	 	
+            "Dùng để cho phép giao dịch",
+            "Tất cả đều đúng"
+        ]	 	
+    },
+    {
+        question: "Trong giải thuật SHA 512, 80 từ :",
+        answer: "Được tạo ra từ toàn bộ messenger",
+        num : 182,
+        options: [	
+            "Được tạo ra mặc định",	 	
+            "Được tạo ra từ toàn bộ messenger",	 	
+            "Được tạo ra từ một phần của messenger",
+            "Tất cả đều sai"
+        ]	 	
+    },
+    {
+        question: "Khoá riêng có đặc điểm",
+        answer: "Không an toàn",
+        num : 183,
+        options: [	
+            "Thời gian thực hiện chậm",	 	
+            "Không an toàn",	 	
+            "Được thay thế bằng khoá công khai",
+            "Thời gian thực hiện nhanh"
+        ]	 	
+    },
+    {
+        question: "Loại mã nguồn độc hại nào có thể được cài đặt song không gây tác hại cho đến khi một hoạt động nào đó được kích hoạt ?",
+        answer: "Trojan horse",
+        num : 184,
+        options: [	
+            "Sâu",	 	
+            "Trojan horse",	 	
+            "Logic bomb",
+            "Stealth virus"
+        ]	 	
+    },
+    {
+        question: "Các giao thức xác thực nào sau đây là được sử dụng trong các mạng không dây ?",
+        answer: "802.11b",
+        num : 185,
+        options: [	
+            "802.1X",	 	
+            "802.11b",	 	
+            "802.11a",
+            "803.1"
+        ]	 	
+    },
+    {
+        question: "Đặc tính nào ngăn chặn vấn đề Release of Message Content",
+        answer: "Confidentiality",
+        num : 187,
+        options: [	
+            "Authentication",	 	
+            "Not at all",	 	
+            "Confidentiality",
+            "Norepudiation"
+        ]	 	
+    },
+    {
+        question: "Giao thức nào dùng để chứng thực dựa trên mã hóa đối xứng:",
+        answer: "Keberos",
+        num : 188,
+        options: [	
+            "Secure Socket Layer (SSL)",	 	
+            "PGB và S/MIME",	 	
+            "Keberos",
+            "X509"
+        ]	 	
+    },
+    {
+        question: "Backdoor là:",
+        answer: "Điểm vào chương trình bí mật, cho phép truy cập mà không qua các thủ tục thông thường",
+        num : 189,
+        options: [	
+            "Tất cả các ý đều đúng",	 	
+            "Mục đích dùng để phát triển và kiểm tra chương trình",	 	
+            "Điểm vào chương trình bí mật, cho phép truy cập mà không qua các thủ tục thông thường",
+        ]	 	
+    },
+    {
+        question: "Kiểu tấn công DHCP Spoofing",
+        answer: "Là kiểu tấn công trong đó có một server DHCP giả được nối vào mạng và cung cấp địa chỉ IP sai cho client",
+        num : 190,
+        options: [	
+            "Là một kiểu tấn công dịch vụ DDOS",	 	
+            "Là kiểu tấn công tạo ra một DoS đến các clients đang kết nối",	 	
+            "Là kiểu tấn công trong đó có một server DHCP giả được nối vào mạng và cung cấp địa chỉ IP sai cho client",
+        ]	 	
+    },
+    {
+        question: "Để thực hiện tấn công bằng Trojan, kẻ tấn công chỉ cần",
+        answer: "Thực hiện đồng thời 2 file, một file vận hành trên máy nạn nhân, file còn lại họat động điều khiển trên máy kẻ tấn công.",
+        num : 191,
+        options: [	
+            "Tạo 1 file chạy (*.exe, *.com) vận hành trên máy nạn nhân là đủ",	 	
+            "Cho máy nạn nhân lây nhiễm một loại virus bất kỳ nào đó.",	 	
+            "Thực hiện đồng thời 2 file, một file vận hành trên máy nạn nhân, file còn lại họat động điều khiển trên máy kẻ tấn công.",
+            "Không có điều nào đúng."
+        ]	 	
+    },
+    {
+        question: "Chiều dài tối thiểu của mật khẩu cần phải là :",
+        answer: "8 ký tự",
+        num : 192,
+        options: [	
+            "12 đến 15 ký tự",	 	
+            "3 đến 5 ký tự",	 	
+            "8 ký tự",
+            "1 đến 3 ký tự"
+        ]	 	
+    },
+    {
+        question: "Cơ cấu bảo mật mạng không dây nào sau đây là ít an toàn nhất ?",
+        answer: "Bảo mật định danh mạng",
+        num : 193,
+        options: [	
+            "VPN",	 	
+            "Mã hóa WEP 40 bit",	 	
+            "Bảo mật định danh mạng",
+            "Mã hóa WEP 128 bit"
+        ]	 	
+    },
+    {
+        question: "Phương pháp điều khiển truy cập có hiệu quả và an toàn nhất đối với mạng không dây là:",
+        answer: "Nhận dạng bảo mật mạng",
+        num : 194,
+        options: [	
+            "Mã hóa WEP 40 bit",	 	
+            "VPN",	 	
+            "Nhận dạng bảo mật mạng",
+            "Mã hóa WEP 128 bit"
+        ]	 	
+    },
+    {
+        question: "Có mấy kiểu violation trong switchport port-security violation?",
+        answer: "Có 3 loại",
+        num : 195,
+        options: [	
+            "Có 8 loại",	 	
+            "Có 4 loại",	 	
+            "Có 3 loại",
+            "Có 2 loại"
+        ]	 	
+    },
+    {
+        question: "Giao thức nào dùng để chứng thực dựa trên mã hóa công khai:",
+        answer: "X509",
+        num : 196,
+        options: [	
+            "Keberos",	 	
+            "Secure Socket Layer (SSL)",	 	
+            "PGB và S/MIME",
+            "X509"
+        ]	 	
+    },
+    {
+        question: "Đặc tính nào của hệ thống bảo mật ngăn chặn vấn đề Masquerade:",
+        answer: "Authentication",
+        num : 197,
+        options: [	
+            "Confidentiality",	 	
+            "Norepudiation",	 	
+            "Security",
+            "Authentication"
+        ]	 	
+    },
+    {
+        question: "Các dạng sau đây, dạng nào là của virus",
+        answer: "virus ký sinh, cư trú bộ nhớ, boot secctor, Stealth, đa hình, macro",
+        num : 198,
+        options: [	
+            "sealth, cư trú bộ nhớ, macro, đa hình, file",	 	
+            "stealth, cư trú bộ nhớ, macro, lưỡng tính, file",	 	
+            "virus ký sinh, file, boot secctor, stealth, cư trú bộ nhớ, macro",
+            "virus ký sinh, cư trú bộ nhớ, boot secctor, Stealth, đa hình, macro"
+        ]	 	
+    },
+    {
+        question: "Những giao thức WAN nào có thể được định hình trên một kết nối tuần tự không đồng bộ (Chọn 2)",
+        answer: "PPP,ATM",
+        num : 199,
+        options: [	
+            "PPP",	 	
+            "ATM",	 	
+            "HDLC",
+            "PPP,ATM"
+        ]	 	
+    },
+    {
+        question: "Dịch vụ Active Directory thực hiện các chức năng sau",
+        answer: "Quản lý tài nguyên và người dùng; xác thực và cấp các quyền cho users và groups; giám sát họat động của các user",
+        num : 200,
+        options: [	
+            "Tổ chức và xây dựng các domain; xác thực và cấp quyền cho các đối tượng",	 	
+            "Duy các hoạt động của các dịch vụ bảo mật cho Window Server và xác thực, cấp quyền cho các đối tượng",	 	
+            "Chỉ thực hiện việc xác thực và cấp các quyền cho users và groups",
+            "Quản lý tài nguyên và người dùng; xác thực và cấp các quyền cho users và groups; giám sát họat động của các user"
+        ]	 	
+    },
+    {
+        question: "Bộ đệm một lần",
+        answer: "Tất cả đều đúng",
+        num : 201,
+        options: [	
+            "Khóa chỉ xài 1 lần.",	 	
+            "Có thể không an toàn do phân phối",	 	
+            "Sinh khóa ngẫu nhiên",
+            "Tất cả đều đúng"
+        ]	 	
+    },
+    {
+        question: "Chỉ phát biểu sai mã đường cong elip",
+        answer: "Độ an toàn ít hơn RSA",
+        num : 202,
+        options: [	
+            "Ít tốn vùng nhớ do xử lý ít hơn RSA",	 	
+            "Dung khóa công cộng và khóa riêng để tính toán khóa phiên",	 	
+            "Các tính toán là tương đương",
+            "Độ an toàn ít hơn RSA"
+        ]	 	
+    },
+    {
+        question: "X=Ek(Y) Bản mã là",
+        answer: "X",
+        num : 203,
+        options: [	
+            "Y",	 	
+            "D",	 	
+            "K",
+            "X"
+        ]	 	
+    },
+    {
+        question: "Các tập tin nào sau đây có khả năng chứa virus nhất ?",
+        answer: "picture.gif.exe",
+        num : 204,
+        options: [	
+            "database.dat",	 	
+            "bigpic.jpeg",	 	
+            "note.txt",
+            "picture.gif.exe"
+        ]	 	
+    },
 ];
 
 const start_btn = document.querySelector(".start_quiz");
